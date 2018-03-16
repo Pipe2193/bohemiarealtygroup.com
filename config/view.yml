@@ -1,0 +1,2901 @@
+all:
+  favicon: favicon/favicon.ico
+  title: Welcome | Bohemia Realty Group
+  meta:
+    - http-equiv="Content-Type" content="text/html;charset=UTF-8"
+    - charset="utf-8"
+    - http-equiv="X-UA-Compatible" content="IE=edge"
+    - name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+    - name="mobile-web-app-capable" content="yes"
+    - name="apple-mobile-web-app-capable" content="yes"
+    - name="theme-color" content="#568c44"
+    - name="msapplication-navbutton-color" content="#568c44"
+    - name="apple-mobile-web-app-status-bar-style" content="black-translucent"
+    - name="description" content=""
+    - name="author" content="BRG Development Department"
+    - name="msapplication-TileColor" content="#ffffff"
+    - name="msapplication-TileImage" content="/ms-icon-144x144.png" 
+    - rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"
+    - rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"
+    - rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"
+    - rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"
+    - rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"
+    - rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"
+    - rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"
+    - rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"
+    - rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"
+    - rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png"
+    - rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"
+    - rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"
+    - rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"
+    - rel="manifest" href="/manifest.json"
+    - name="msapplication-TileColor" content="#ffffff"
+    - name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png"
+  stylesheet_library:
+    - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+     
+# ********************************************************************************************************************** #
+# ********************************************************** FRONT END ************************************************** #
+
+homepage:   
+  index:
+    title: Bohemia Realty Group | Upper Manahattan Specialists
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+        - js/plugins/back-to-top.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+
+our-properties:   
+  rentals:
+    title: Rentals | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js 
+        
+  sales:
+    title: Sales | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+our-developments:   
+  index:
+    title: Our Developments | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js  
+        
+  theLeo:
+    title: The Leo - 427 W 154th | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+  savoyPark:
+    title: Savoy Park Apartments | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+ 
+  northwoodUws:
+    title: Northwood UWS | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js  
+        
+our-neighborhoods:   
+  index:
+    title: Our Neighborhoods | BRG
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js         
+      
+our-team:   
+  index:
+    title: Our Team | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+contact-us:   
+  index:
+    title: Get In Touch | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js 
+        
+work-with-us:   
+  index:
+    title: Work With Us | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+list-with-us:   
+  index:
+    title: List With Us | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+#        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+        - js/list-with-us/index.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+blog:   
+  index:
+    title: Blog | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js 
+        
+make-a-payment:   
+  index:
+    title: Make a Payment | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+press:   
+  index:
+    title: Bohemia In the Press | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js   
+        
+we-are-uptown:   
+  index:
+    title: Who We Are | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js
+        
+mailing-list:   
+  index:
+    title: Our Mailing List | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js 
+        
+# ********************************************************************************************************************** #
+# ********************************************************** BACK END ************************************************** #
+
+
+shfSecurity:
+  index:
+    title: Sign In | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.min.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - build/css/custom.min.css
+        - css/main.css
+        - css/shfDeveloperBar.min.css
+# *************************** shfSecurity/index libraries *************************************        
+        - css/signin.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.min.js
+        - js/plugins/back-to-top.min.js
+        - vendors/nprogress/nprogress.min.js
+        - build/js/custom.min.js
+# *************************** shfSecurity/index libraries *************************************
+        - js/main.min.js
+        - js/app.min.js
+        - js/signin.min.js
+        - js/login/login.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  setAccount:
+    title: Set Up Account | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.min.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - build/css/custom.min.css
+        - css/main.css
+        - css/shfDeveloperBar.min.css
+# *************************** shfSecurity/index libraries *************************************        
+        - css/signin.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.min.js
+        - js/plugins/back-to-top.min.js
+        - vendors/nprogress/nprogress.min.js
+        - build/js/custom.min.js
+# *************************** shfSecurity/index libraries *************************************
+        - js/main.min.js
+        - js/app.min.js
+        - js/signin.min.js
+        - js/shfSecurity/setAccount.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css        
+
+  recovery:
+     title: Account Recovery | BRG
+
+     stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.min.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - build/css/custom.min.css
+        - css/main.css
+        - css/shfDeveloperBar.min.css
+# *************************** shfSecurity/index libraries *************************************   
+        - css/signin.css
+     javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.min.js
+        - js/plugins/back-to-top.min.js
+        - vendors/nprogress/nprogress.min.js
+        - build/js/custom.min.js
+# *************************** shfSecurity/index libraries *************************************
+        - js/main.min.js
+        - js/app.min.js
+        - js/signin.min.js
+     javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+     stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  noPermission:
+    title: Authentication | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.min.css
+        - build/css/custom.min.css
+        - css/main.css
+        - css/shfDeveloperBar.min.css
+# *************************** shfSecurity/index libraries *************************************        
+        - css/signin.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - js/plugins/back-to-top.min.js
+        - vendors/nprogress/nprogress.min.js
+        - build/js/custom.min.js
+# *************************** shfSecurity/index libraries *************************************
+        - js/main.min.js
+        - js/app.min.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  exception:
+    title: Exception | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.min.css
+        - build/css/custom.min.css
+        - css/main.css
+        - css/shfDeveloperBar.min.css
+# *************************** shfSecurity/index libraries *************************************        
+        - css/signin.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - js/plugins/back-to-top.min.js
+        - vendors/nprogress/nprogress.min.js
+        - build/js/custom.min.js
+# *************************** shfSecurity/index libraries *************************************
+        - js/main.min.js
+        - js/app.min.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css       
+    
+        
+system:
+  index:
+    title: System Manager | Bohemia Realty Group     
+    stylesheet:
+     - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+     - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+     - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+     - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+     - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+     - vendors/google-code-prettify/bin/prettify.min.css
+     - vendors/select2/dist/css/select2.min.css
+     - vendors/switchery/dist/switchery.min.css
+    javascript: 
+     - vendors/datatables.net/js/jquery.dataTables.min.js
+     - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+     - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+     - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+     - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+     - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+     - vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js
+     - vendors/jquery.hotkeys/jquery.hotkeys.js
+     - vendors/google-code-prettify/src/prettify.js
+     - vendors/switchery/dist/switchery.min.js
+     - vendors/select2/dist/js/select2.full.min.js
+     - build/js/custom.min.js
+
+default:
+  init:
+    title: Dashboard | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/bootstrap-daterangepicker/daterangepicker.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - vendors/iCheck/skins/flat/green.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** default/init libraries *************************************        
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/fastclick/lib/fastclick.js
+        - vendors/nprogress/nprogress.js
+        - vendors/Chart.js/dist/Chart.min.js
+        - vendors/jquery-sparkline/dist/jquery.sparkline.min.js
+        - vendors/Flot/jquery.flot.js
+        - vendors/Flot/jquery.flot.pie.js
+        - vendors/Flot/jquery.flot.time.js
+        - vendors/Flot/jquery.flot.stack.js
+        - vendors/Flot/jquery.flot.resize.js
+        - vendors/flot.orderbars/js/jquery.flot.orderBars.js
+        - vendors/flot-spline/js/jquery.flot.spline.min.js
+        - vendors/flot.curvedlines/curvedLines.js
+        - vendors/DateJS/build/date.js
+        - vendors/moment/min/moment.min.js
+        - vendors/bootstrap-daterangepicker/daterangepicker.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - vendors/iCheck/icheck.min.js
+        - build/js/custom.min.js
+# *************************** default/init libraries *************************************
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+
+usuario:
+  index:
+    title: Users Manager | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - vendors/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/plupload/js/plupload.full.min.js
+        - vendors/plupload/js/jquery.plupload.queue/jquery.plupload.queue.js
+        - js/usuario/usuario.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+
+  insert:
+    title: Add User | BRG    
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/bootstrap-daterangepicker/daterangepicker.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - vendors/iCheck/skins/flat/green.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/insert libraries *************************************     
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - vendors/google-code-prettify/bin/prettify.min.css
+        - vendors/select2/dist/css/select2.min.css
+        - vendors/switchery/dist/switchery.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/fastclick/lib/fastclick.js
+        - vendors/nprogress/nprogress.js
+        - vendors/Chart.js/dist/Chart.min.js
+        - vendors/jquery-sparkline/dist/jquery.sparkline.min.js
+        - vendors/Flot/jquery.flot.js
+        - vendors/Flot/jquery.flot.pie.js
+        - vendors/Flot/jquery.flot.time.js
+        - vendors/Flot/jquery.flot.stack.js
+        - vendors/Flot/jquery.flot.resize.js
+        - vendors/flot.orderbars/js/jquery.flot.orderBars.js
+        - vendors/flot-spline/js/jquery.flot.spline.min.js
+        - vendors/flot.curvedlines/curvedLines.js
+        - vendors/DateJS/build/date.js
+        - vendors/moment/min/moment.min.js
+        - vendors/bootstrap-daterangepicker/daterangepicker.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - vendors/iCheck/icheck.min.js
+        - build/js/custom.min.js
+# *************************** usuario/insert libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js
+        - vendors/jquery.hotkeys/jquery.hotkeys.js
+        - vendors/google-code-prettify/src/prettify.js
+        - vendors/switchery/dist/switchery.min.js  
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js    
+  edit:
+    title: Edit User | Bohemia Realty Group     
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/bootstrap-daterangepicker/daterangepicker.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - vendors/iCheck/skins/flat/green.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/edit libraries *************************************    
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - vendors/google-code-prettify/bin/prettify.min.css
+        - vendors/select2/dist/css/select2.min.css
+        - vendors/switchery/dist/switchery.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/fastclick/lib/fastclick.js
+        - vendors/nprogress/nprogress.js
+        - vendors/Chart.js/dist/Chart.min.js
+        - vendors/jquery-sparkline/dist/jquery.sparkline.min.js
+        - vendors/Flot/jquery.flot.js
+        - vendors/Flot/jquery.flot.pie.js
+        - vendors/Flot/jquery.flot.time.js
+        - vendors/Flot/jquery.flot.stack.js
+        - vendors/Flot/jquery.flot.resize.js
+        - vendors/flot.orderbars/js/jquery.flot.orderBars.js
+        - vendors/flot-spline/js/jquery.flot.spline.min.js
+        - vendors/flot.curvedlines/curvedLines.js
+        - vendors/DateJS/build/date.js
+        - vendors/moment/min/moment.min.js
+        - vendors/bootstrap-daterangepicker/daterangepicker.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - vendors/iCheck/icheck.min.js
+        - build/js/custom.min.js
+# *************************** usuario/edit libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js
+        - vendors/jquery.hotkeys/jquery.hotkeys.js
+        - vendors/google-code-prettify/src/prettify.js
+        - vendors/switchery/dist/switchery.min.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        
+  activation:
+    title: Activate Account | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/edit libraries *************************************     
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+# *************************** usuario/edit libraries ************************************* 
+        - js/usuario/activation.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+        
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        
+team:
+  index:
+    title: Teams | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/team/team.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+team_type:
+  index:
+    title: Team Types | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/team_type/team_type.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css        
+        
+credencial:
+  index:
+    title: User Roles | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/credential/credential.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  manage:
+    title: Manage User Role | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css        
+        
+        
+neighborhood:
+  index:
+    title: Neigborhoods | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/neighborhood/index.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+    
+listings:
+  index:
+    title: Listings | Bohemia Realty Group  
+    stylesheet:
+     - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+     - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+     - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+     - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+     - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+     - vendors/datatables.net/js/jquery.dataTables.min.js
+     - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+     - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+     - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+     - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+     - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+     - js/listings/listings.js
+  insert:
+    title: Add a Listing | Bohemia Realty Group  
+    stylesheet:
+     - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+     - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+     - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+     - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+     - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+     - vendors/google-code-prettify/bin/prettify.min.css
+     - vendors/select2/dist/css/select2.min.css
+     - vendors/switchery/dist/switchery.min.css
+    javascript: 
+     - vendors/datatables.net/js/jquery.dataTables.min.js
+     - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+     - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+     - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+     - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+     - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+     - vendors/jquery.hotkeys/jquery.hotkeys.js
+     - vendors/google-code-prettify/src/prettify.js
+     - vendors/switchery/dist/switchery.min.js
+     - vendors/select2/dist/js/select2.full.min.js
+     
+profile:
+  index:
+    title: My Profile | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** profile/index libraries *************************************     
+
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - js/main.js
+        - js/app.js
+# *************************** profile/index libraries *************************************          
+        - build/js/custom.min.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+
+  view:
+    title: View Profile | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** profile/index libraries *************************************     
+
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - js/main.js
+        - js/app.js
+# *************************** profile/index libraries *************************************          
+        - build/js/custom.min.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css         
+     
+  edit:
+    title: Profile Settings | Bohemia Realty Group     
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/profile/edit.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+
+
+landlord:
+  index:
+    title: Landlords & Buildings | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/landlord/landlord.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css    
+        
+  manage:
+    title: Manage Landlord | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/landlord/manage.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  edit:
+    title: Edit Landlord | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        
+procedures:
+ index:
+    title: Add Procedures | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - js/listing/account.js
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+ edit:
+    title: Edit Procedures | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - js/listing/account.js
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css        
+        
+building:
+  index:
+    title: Buildings | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/building/index.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  edit:
+    title: Edit Building | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        
+  manage:
+    title: Manage Building | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/landlord/manage.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        
+listing:
+  index:
+    title: Add listing | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  search:
+    title: Manage listings | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - js/listing/search.js
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        
+  account:
+    title: My listings | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - js/listing/account.js
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css      
+    
+  edit:
+    title: Edit listing | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css  
+    
+  manage:
+    title: Manage listing | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - js/listing/manage.js
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+
+# ***************************************************** Ad *************************************** #
+
+ad:
+  add:
+    title: Create Listing Ad | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css        
+
+syndication_log:
+  index:
+    title: Sync Log | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+
+hiring:
+ event:
+    title: Hiring Events | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+ insert:
+    title: Create Event | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - js/listing/account.js
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css      
+
+guestRegistration:
+  admin:
+    title: Guest Registration Management | Bohemia Realty Group  
+    stylesheet:
+     - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+     - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+     - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+     - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+     - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+     - vendors/datatables.net/js/jquery.dataTables.min.js
+     - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+     - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+     - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+     - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+     - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+     - js/usuario/usuario.js
+
+# ********************************************************************************************************************** #
+# ************************************************************ CMS ***************************************************** #
+     
+cms_blogs:
+  index:
+    title: Blogs Posts | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/CMS/cms_blogs/cms_blogs.js
+
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+   
+  insert:
+    title: New Post | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/bootstrap-daterangepicker/daterangepicker.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/CMS/cms_blogs/edit.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/fastclick/lib/fastclick.js
+        - vendors/nprogress/nprogress.js
+
+        - vendors/DateJS/build/date.js
+        - vendors/moment/min/moment.min.js
+        - vendors/bootstrap-daterangepicker/daterangepicker.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/CMS/cms_blogs/insert.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css    
+        
+  edit:
+    title: Edit Post | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/bootstrap-daterangepicker/daterangepicker.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/CMS/cms_blogs/edit.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/fastclick/lib/fastclick.js
+        - vendors/nprogress/nprogress.js
+
+        - vendors/DateJS/build/date.js
+        - vendors/moment/min/moment.min.js
+        - vendors/bootstrap-daterangepicker/daterangepicker.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/CMS/cms_blogs/insert.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css    
+        
+
+cms_site_pages:
+  index:
+    title: Site Pages | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/CMS/cms_site_pages/cms_site_pages.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+  manage:
+    title: Manage Site | BRG
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/CMS/cms_site_pages/manage.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css   
+        
+company:
+  index:
+    title: Company Settings | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/company/index.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+brgdm:
+  index:
+    title: BRGDM | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  savoyPark:
+    title: Savoy Park Apartments | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** usuario/index libraries ************************************* 
+        - css/brgdm/savoyPark.css
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+# *************************** usuario/index libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/brgdm/savoyPark.js
+        - js/main.js
+        - js/app.js
+    javascript_library:
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css      
+     
+app_landlord:
+  index:
+    title: App & Info - Landlords | BRG  
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/index libraries *************************************        
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript:
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/index libraries *************************************
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - js/landlord/landlord.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  manage:
+    title: Manage App & Info - Landlord | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/landlord/manage.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+  general:
+    title: General Apps & Info | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+        - js/landlord/manage.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css       
+        
+        
+deal:
+  index:
+    title: Manage Deals | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+        - //cdn.jsdelivr.net/momentjs/latest/moment.min.js
+        - //cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js
+
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        - //cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css
+        
+  add:
+    title: New Deal | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+dealsheet:       
+  index:
+    title: Dealsheets | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** listing/manage libraries ************************************* 
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+        - //cdn.jsdelivr.net/momentjs/latest/moment.min.js
+        - //cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js
+
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        - //cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css
+      
+sales_building:
+  manage:
+    title: Manage Sale Building | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+sales_listing:
+  manage:
+    title: Manage Sale Listing | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css
+        
+lockbox:
+  index:
+    title: Lockbox Manager | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+        - vendors/ckeditor/ckeditor.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css 
+        
+splits:
+  index:
+    title: Splits Manager | BRG 
+    stylesheet:
+        - vendors/bootstrap/dist/css/bootstrap.min.css
+        - vendors/nprogress/nprogress.css
+        - vendors/formvalidation/dist/css/formValidation.min.css
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+        - build/css/custom.css
+        - css/main.css
+        - css/shfDeveloperBar.css
+# *************************** landlord/manage libraries *************************************       
+        - vendors/datatables.net-bs/css/dataTables.bootstrap.min.css
+        - vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css
+        - vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css
+        - vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css
+        - vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css
+        - css/landlord/manage.css
+    javascript: 
+        - vendors/jquery/dist/jquery.min.js
+        - vendors/bootstrap/dist/js/bootstrap.min.js
+        - vendors/formvalidation/dist/js/formValidation.min.js
+        - vendors/formvalidation/dist/js/framework/bootstrap.min.js
+        - vendors/formvalidation/dist/js/addons/mandatoryIcon/src/mandatoryIcon.js
+        - js/plugins/back-to-top.js
+        - vendors/nprogress/nprogress.js
+        - vendors/moment/min/moment.min.js
+        - vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+        - build/js/custom.min.js
+        - vendors/jquery-mask/jquery.mask.min.js
+        - js/main.js
+        - js/app.js
+# *************************** landlord/manage libraries *************************************    
+        - vendors/datatables.net/js/jquery.dataTables.min.js
+        - vendors/datatables.net-bs/js/dataTables.bootstrap.min.js
+        - vendors/datatables.net-keytable/js/dataTables.keyTable.min.js
+        - vendors/datatables.net-responsive/js/dataTables.responsive.min.js
+        - vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js
+        - vendors/datatables.net-scroller/js/dataTables.scroller.min.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://use.fontawesome.com/14543858c3.js
+        - https://code.getmdl.io/1.3.0/material.min.js
+    stylesheet_library:
+        - https://fonts.googleapis.com/icon?family=Material+Icons
+        - https://code.getmdl.io/1.3.0/material.teal-pink.min.css        

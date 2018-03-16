@@ -1,0 +1,3750 @@
+homepage:
+  url:    /
+  param:  { module: homepage, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+homepage_init:
+  url:    /homepage
+  param:  { module: homepage, action: init, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+
+our_properties_rentals:
+  url:    /our-properties/rentals
+  param:  { module: our-properties, action: rentals, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    
+our_properties_sales:
+  url:    /our-properties/sales
+  param:  { module: our-properties, action: sales, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+our_developments_index:
+  url:    /our-developments
+  param:  { module: our-developments, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+our_developments_theleo:
+  url:    /our-developments/the-leo
+  param:  { module: our-developments, action: theLeo, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php   
+    
+our_developments_savoypark:
+  url:    /our-developments/savoy-park-apartments
+  param:  { module: our-developments, action: savoyPark, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php   
+    
+our_developments_northwooduws:
+  url:    /our-developments/northwood-uws
+  param:  { module: our-developments, action: northwoodUws, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    
+our_neighborhoods_index:
+  url:    /our-neighborhoods
+  param:  { module: our-neighborhoods, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php     
+    
+our_team_index:
+  url:    /our-team
+  param:  { module: our-team, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+contact_us_index:
+  url:    /contact-us/get-in-touch
+  param:  { module: contact-us, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+work-with-us_index:
+  url:    /contact-us/work-with-us
+  param:  { module: work-with-us, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+    
+list-with-us_index:
+  url:    /contact-us/list-with-us
+  param:  { module: list-with-us, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+blog_index:
+  url:    /blog
+  param:  { module: blog, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
+
+make_a_payment_index:
+  url:    /make-a-payment
+  param:  { module: make-a-payment, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    
+press_index:
+  url:    /press
+  param:  { module: press, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+
+we_are_uptown_index:
+  url:    /about-us/we-are-uptown
+  param:  { module: we-are-uptown, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+mailing_list_index:
+  url:    /mailing-list
+  param:  { module: mailing-list, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php       
+    
+dashboard:
+  url:    /dashboard
+  param:  { module: default, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+
+##-------------------------- shfSecurity --------------------------##
+shfSecurity_index:
+  url:    /signin
+  param:  { module: shfSecurity, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+shfSecurity_login:
+  url:    /login
+  param:  { module: shfSecurity, action: login, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    
+shfSecurity_recovery:
+  url:    /recovery/password
+  param:  { module: shfSecurity, action: recovery, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    
+shfSecurity_setAccount:
+  url:    /user/setAccount
+  param:  { module: shfSecurity, action: setAccount, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php    
+
+shfSecurity_logout:
+  url:    /logout
+  param:  { module: shfSecurity, action: logout, format: html }
+  load:
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+
+shfSecurity_noPermission:
+  url:    /noPermission
+  param:  { module: shfSecurity, action: noPermission, format: html }
+
+shfSecurity_exception:
+  url:    /exception
+  param:  { module: shfSecurity, action: exception, format: html }
+##-------------------------- shfSecurity --------------------------##
+##----------------------------- CMS -------------------------------##
+CMS_blogs_index:
+  url:    /CMS/blogs
+  param:  { module: cms_blogs, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php 
+
+CMS_blogs_insert:
+  url:    /CMS/blogs/post
+  param:  { module: cms_blogs, action: insert, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
+    
+CMS_blogs_create:
+  url:    /CMS/blogs/create
+  param:  { module: cms_blogs, action: create, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
+    
+CMS_blogs_edit:
+  url:    /CMS/blogs/edit
+  param:  { module: cms_blogs, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
+
+CMS_blogs_update:
+  url:    /CMS/blogs/update
+  param:  { module: cms_blogs, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
+    
+CMS_blogs_ajax:
+  url:    /CMS/blogs/ajax
+  param:  { module: cms_blogs, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php 
+    
+CMS_blogs_delete:
+  url:    /CMS/blogs/delete
+  param:  { module: cms_blogs, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
+   
+##----------------------------- SITE PAGES -------------------------------##    
+    
+CMS_site_pages_index:
+  url:    /CMS/site/pages
+  param:  { module: cms_site_pages, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/sitePagesBaseTableClass.php
+    - model/sitePagesTableClass.php
+    
+CMS_site_pages_insert:
+  url:    /CMS/site/page/add
+  param:  { module: cms_site_pages, action: insert, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/sitePagesBaseTableClass.php
+    - model/sitePagesTableClass.php
+    
+CMS_site_pages_manage:
+  url:    /CMS/site/page/manage
+  param:  { module: cms_site_pages, action: manage, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/sitePagesBaseTableClass.php
+    - model/sitePagesTableClass.php
+    - model/base/socialMediaBarBaseTableClass.php
+    - model/socialMediaBarTableClass.php 
+
+##-----------------------------SITE PAGES-------------------------------##    
+##----------------------------- CMS -------------------------------##
+
+##-------------------------- EJEMPLO --------------------------##
+default_index:
+  url:    /dashboard/index
+  param:  { module: default, action: init, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+
+default_insert:
+  url:    /usuarios/insertar
+  param:  { module: default, action: insert, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_create:
+  url:    /usuarios/crear
+  param:  { module: default, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_edit:
+  url:    /usuario/editar
+  param:  { module: default, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_update:
+  url:    /usuario/actualizar
+  param:  { module: default, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_delete:
+  url:    /usuario/eliminar
+  param:  { module: default, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_deleteSelect:
+  url:    /usuario/eliminarSeleccion
+  param:  { module: default, action: deleteSelect, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+#default_reporte:
+#  url:    /usuario/reporte
+#  param:  { module: default, action: report, format: pdf }
+#  load:
+#    - libs/fpdf/fpdf.php
+##-------------------------- EJEMPLO --------------------------##
+##-------------------------- USUARIO --------------------------## 
+usuario_index:
+  url:    /users/manage
+  param:  { module: usuario, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+    
+usuario_ajax:
+  url:    /users/ajax
+  param:  { module: usuario, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    
+usuario_deactivate:
+  url:    /user/deactivate
+  param:  { module: usuario, action: deactivate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php    
+
+usuario_activate:
+  url:    /user/activate
+  param:  { module: usuario, action: activate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+
+usuario_activation:
+  url:    /user/activation
+  param:  { module: usuario, action: activation, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+#    - libs/phpmailer/PHPMailerAutoload.php
+#    - libs/phpmailer/class.phpmailer.php
+    
+usuario_invite:
+  url:    /user/invite
+  param:  { module: usuario, action: invite, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php
+    
+usuario_setcredentials:
+  url:    /user/update/credentials
+  param:  { module: usuario, action: setCredentials, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php  
+    
+usuario_setrequest:
+  url:    /user/request
+  param:  { module: usuario, action: setRequest, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php     
+    
+#usuario_insert:
+#  url:    /user/register
+#  param:  { module: usuario, action: insert, format: html }
+#  load:
+#    - model/base/usuarioBaseTableClass.php
+#    - model/usuarioTableClass.php
+#    - model/base/profileBaseTableClass.php
+#    - model/profileTableClass.php
+
+usuario_create:
+  url:    /user/create
+  param:  { module: usuario, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php
+    - model/base/userBaseTableClass.php
+    - model/userTableClass.php
+    
+#usuario_edit:
+#  url:    /user/edit
+#  param:  { module: usuario, action: edit, format: html }
+#  load:
+#    - model/base/usuarioBaseTableClass.php
+#    - model/usuarioTableClass.php
+#    - model/base/profileBaseTableClass.php
+#    - model/profileTableClass.php
+
+usuario_update:
+  url:    /user/update
+  param:  { module: usuario, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php    
+    
+usuario_delete:
+  url:    /user/delete
+  param:  { module: usuario, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+
+##-------------------------- CREDENCIAL --------------------------## 
+credential_index:
+  url:    /user/roles
+  param:  { module: credencial, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    
+credential_manage:
+  url:    /user/role/manage
+  param:  { module: credencial, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/permissionsBaseTableClass.php
+    - model/permissionsTableClass.php
+    - model/base/rolesPermissionsBaseTableClass.php
+    - model/rolesPermissionsTableClass.php
+    - model/base/moduleBaseTableClass.php
+    - model/moduleTableClass.php
+   
+credential_ajax:
+  url:    /user/roles/ajax
+  param:  { module: credencial, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/permissionsBaseTableClass.php
+    - model/permissionsTableClass.php
+    - model/base/rolesPermissionsBaseTableClass.php
+    - model/rolesPermissionsTableClass.php     
+
+credential_create:
+  url:    /user/role/create
+  param:  { module: credencial, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/permissionsBaseTableClass.php
+    - model/permissionsTableClass.php
+    - model/base/rolesPermissionsBaseTableClass.php
+    - model/rolesPermissionsTableClass.php
+
+credential_update:
+  url:    /user/role/update
+  param:  { module: credencial, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/permissionsBaseTableClass.php
+    - model/permissionsTableClass.php
+    - model/base/rolesPermissionsBaseTableClass.php
+    - model/rolesPermissionsTableClass.php
+    
+credential_delete:
+  url:    /user/role/delete
+  param:  { module: credencial, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php 
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+##-------------------------- TEAM --------------------------##    
+team_index:
+  url:    /users/teams
+  param:  { module: team, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+team_ajax:
+  url:    /users/teams/ajax
+  param:  { module: team, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+team_create:
+  url:    /users/team/add
+  param:  { module: team, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+team_manage:
+  url:    /users/team/manage
+  param:  { module: team, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+team_update:
+  url:    /users/team/update
+  param:  { module: team, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+
+##-------------------------- TEAM TYPE--------------------------##    
+team_type_index:
+  url:    /users/team/types/
+  param:  { module: team_type, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+team_type_ajax:
+  url:    /users/teams/types/ajax
+  param:  { module: team_type, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+team_type_create:
+  url:    /users/team/type/add
+  param:  { module: team_type, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php 
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/teamLeaderBaseTableClass.php
+    - model/teamLeaderTableClass.php
+    - model/base/teamTypeBaseTableClass.php
+    - model/teamTypeTableClass.php
+    
+##-------------------------- NEIGHBORHOOD --------------------------## 
+neighborhood_index:
+  url:    /system/boroughs/neighborhoods
+  param:  { module: neighborhood, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php  
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+neighborhood_ajax:
+  url:    /system/boroughs/neighborhood/ajax
+  param:  { module: neighborhood, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php  
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+neighborhood_create:
+  url:    /system/boroughs/neighborhood/add
+  param:  { module: neighborhood, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php  
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+neighborhood_edit:
+  url:    /system/boroughs/neighborhood/edit
+  param:  { module: neighborhood, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php  
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+neighborhood_update:
+  url:    /system/boroughs/neighborhood/update
+  param:  { module: neighborhood, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php  
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+neighborhood_delete:
+  url:    /system/boroughs/neighborhood/delete
+  param:  { module: neighborhood, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php  
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php    
+##-------------------------- SYSTEM --------------------------##
+system_index:
+  url:    /system/index
+  param:  { module: system, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+       
+##-------------------------- PROFILE --------------------------##
+profile_index:
+  url:    /profile/index
+  param:  { module: profile, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+profile_view:
+  url:    /profile/view
+  param:  { module: profile, action: view, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+
+profile_create:
+  url:    /profile/create
+  param:  { module: profile, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/userBaseTableClass.php
+    - model/userTableClass.php
+    - model/base/userProfilesBaseTableClass.php
+    - model/userProfilesTableClass.php
+
+    
+profile_edit:
+  url:    /profile/edit
+  param:  { module: profile, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+
+profile_update:
+  url:    /profile/update
+  param:  { module: profile, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+ 
+profile_upload:
+  url:    /profile/upload
+  param:  { module: profile, action: upload, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+    
+##-------------------------- LANDLORD --------------------------##
+landlord_index:
+  url:    /landlord/index
+  param:  { module: landlord, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    
+    
+landlord_ajax:
+  url:    /landlord/ajax
+  param:  { module: landlord, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+    
+landlord_create:
+  url:    /landlord/create
+  param:  { module: landlord, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php
+    - model/base/landlordsBaseTableClass.php
+    - model/landlordsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+landlord_deactivate:
+  url:    /landlord/deactivate
+  param:  { module: landlord, action: deactivate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php    
+
+landlord_activate:
+  url:    /landlord/activate
+  param:  { module: landlord, action: activate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php 
+    
+landlord_manage:
+  url:    /landlord/manage
+  param:  { module: landlord, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+    
+#landlord_update:
+#  url:    /landlord/update
+#  param:  { module: landlord, action: update, format: html }
+#  load:
+#    - model/base/usuarioBaseTableClass.php
+#    - model/usuarioTableClass.php
+#    - model/base/profileBaseTableClass.php
+#    - model/profileTableClass.php
+#    - model/base/landlordBaseTableClass.php
+#    - model/landlordTableClass.php
+#    - model/base/listingManagerBaseTableClass.php
+#    - model/listingManagerTableClass.php
+#    - libs/phpmailer/PHPMailerAutoload.php
+#    - libs/phpmailer/class.phpmailer.php
+    
+landlord_edit:
+  url:    /landlord/edit
+  param:  { module: landlord, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    
+landlord_update:
+  url:    /landlord/update
+  param:  { module: landlord, action: update, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    
+    
+landlord_sync:
+  url:    /landlord/sync
+  param:  { module: landlord, action: sync, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php
+    - model/base/landlordsBaseTableClass.php
+    - model/landlordsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+
+##-------------------------------- PROCEDURES   --------------------------------##    
+procedures_index:
+  url:    /procedures/index
+  param:  { module: procedures, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php
+    
+procedures_create:
+  url:    /procedures/create
+  param:  { module: procedures, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php     
+    
+procedures_edit:
+  url:    /procedures/edit
+  param:  { module: procedures, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php  
+    
+procedures_update:
+  url:    /procedures/update
+  param:  { module: procedures, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php     
+        
+##-------------------------------- BUILDING   --------------------------------##
+building_index:
+  url:    /buildings
+  param:  { module: building, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+building_create:
+  url:    /building/create
+  param:  { module: building, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/buildingsBaseTableClass.php
+    - model/buildingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+building_ajax:
+  url:    /building/ajax
+  param:  { module: building, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+building_edit:
+  url:    /building/edit
+  param:  { module: building, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    
+building_update:
+  url:    /building/update
+  param:  { module: building, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php    
+    
+building_manage:
+  url:    /building/manage
+  param:  { module: building, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+building_sync:
+  url:    /building/sync
+  param:  { module: building, action: sync, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/buildingsBaseTableClass.php
+    - model/buildingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+    
+##-------------------------------- LISTING ---------------------------------##
+listing_index:
+  url:    /listing/index
+  param:  { module: listing, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    
+listing_create:
+  url:    /listing/create
+  param:  { module: listing, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/listingsBaseTableClass.php
+    - model/listingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+listing_edit:
+  url:    /listing/edit
+  param:  { module: listing, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php    
+  
+listing_update:
+  url:    /listing/update
+  param:  { module: listing, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+#    - model/base/listingsBaseTableClass.php
+#    - model/listingsTableClass.php
+    
+listing_ajax:
+  url:    /listing/ajax
+  param:  { module: listing, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php
+    
+listing_manage:
+  url:    /listing/manage
+  param:  { module: listing, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    
+listing_account:
+  url:    /listing/account
+  param:  { module: listing, action: account, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+listing_assign:
+  url:    /listing/assign
+  param:  { module: listing, action: assign, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php 
+    
+listing_unassign:
+  url:    /listing/unassign
+  param:  { module: listing, action: unassign, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php     
+    
+listing_search:
+  url:    /listing/search
+  param:  { module: listing, action: search, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+   
+listing_sync:
+  url:    /listing/sync
+  param:  { module: listing, action: sync, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/listingsBaseTableClass.php
+    - model/listingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    
+listing_unavailable:
+  url:    /listing/unavailable
+  param:  { module: listing, action: unavailable, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php     
+
+##-------------------------- AD    --------------------------## 
+
+ad_index:
+  url:    /listing/ad/index
+  param:  { module: ad, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    
+ad_add:
+  url:    /listing/ad/add
+  param:  { module: ad, action: add, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    
+##-------------------------- RENTAL AMENITIES     --------------------------##     
+
+rental_amenities_index:
+  url:    /system/settings/amenities
+  param:  { module: rentalAmenities, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    
+rental_amenities_create:
+  url:    /system/settings/amenities/add
+  param:  { module: rentalAmenities, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php     
+    
+rental_amenities_ajax:
+  url:    /system/settings/amenities/ajax
+  param:  { module: rentalAmenities, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php    
+##---------------------------------- SUPER  ----------------------------------##     
+super_ajax:
+  url:    /super/ajax
+  param:  { module: super, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php 
+    
+##----------------------------------- SYNCDICATION LOG --------------------------##
+syndication_log_index:
+  url:    /sync/index
+  param:  { module: syndication_log, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+##----------------------------------- HIRING --------------------------##
+hiring_event:
+  url:    /hiring/events
+  param:  { module: hiring, action: event, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_create:
+  url:    /hiring/event/create
+  param:  { module: hiring, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_insert:
+  url:    /hiring/event/add
+  param:  { module: hiring, action: insert, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_edit:
+  url:    /hiring/event/edit
+  param:  { module: hiring, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_update:
+  url:    /hiring/event/update
+  param:  { module: hiring, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_ajax:
+  url:    /hiring/ajax
+  param:  { module: hiring, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_manage:
+  url:    /hiring/event/manage
+  param:  { module: hiring, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php
+    
+hiring_event_feed:
+  url:    /hiring/feed/events/list
+  param:  { module: hiring, action: feed, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/eventBaseTableClass.php
+    - model/eventTableClass.php    
+##-------------------------- GUEST REGISTRATION     --------------------------##   
+guestRegistration_index:
+  url:    /guestRegistration/admin
+  param:  { module: guestRegistration, action: admin, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+##-------------------------- COMPANY --------------------------##
+company_index:
+  url:    /company/settings
+  param:  { module: company, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/companyBaseTableClass.php
+    - model/companyTableClass.php
+    
+##-------------------------- DEVELOPMENT --------------------------##
+brgdm_index:
+  url:    /brgdm/
+  param:  { module: brgdm, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+brgdm_ajax:
+  url:    /brgdm/ajax
+  param:  { module: brgdm, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php   
+    
+brgdm_create:
+  url:    /brgdm/create
+  param:  { module: brgdm, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+    
+brgdm_savoy_park:
+  url:    /brgdm/savoy-Park-Apartments
+  param:  { module: brgdm, action: savoyPark, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+##-------------------------- LANDLORD --------------------------##
+app_landlord_index:
+  url:    /app/info/landlord/index
+  param:  { module: app_landlord, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    
+app_landlord_ajax:
+  url:    /app/info/landlord/ajax
+  param:  { module: app_landlord, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    
+app_landlord_manage:
+  url:    /app/info/landlord/manage
+  param:  { module: app_landlord, action: manage, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php
+    
+app_landlord_general:
+  url:    /app/info/general
+  param:  { module: app_landlord, action: general, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/proceduresBaseTableClass.php
+    - model/proceduresTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php    
+##------------------------------- DEVELOPMENT ---------------------------------##
+
+
+deal_index:
+  url:    /deals/index
+  param:  { module: deal, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/rentalDealsBaseTableClass.php
+    - model/rentalDealsTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/salesDealsBaseTableClass.php
+    - model/salesDealsTableClass.php
+    
+deal_ajax:
+  url:    /deals/ajax
+  param:  { module: deal, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/rentalDealsBaseTableClass.php
+    - model/rentalDealsTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php
+    - model/base/salesDealsBaseTableClass.php
+    - model/salesDealsTableClass.php
+  
+deal_add:
+  url:    /deal/newDeal
+  param:  { module: deal, action: add, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/rentalDealsBaseTableClass.php
+    - model/rentalDealsTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php    
+    
+    
+file_ajax:
+  url:    /documents/ajax
+  param:  { module: file, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php
+    
+file_create:
+  url:    /documents/create
+  param:  { module: file, action: create, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php    
+    
+file_update:
+  url:    /documents/update
+  param:  { module: file, action: update, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/fileBaseTableClass.php
+    - model/fileTableClass.php        
+    
+dealsheet_index:
+  url:    /dealsheets/index
+  param:  { module: dealsheet, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/rentalDealsBaseTableClass.php
+    - model/rentalDealsTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/teamBaseTableClass.php
+    - model/teamTableClass.php  
+    
+sales_building_ajax:
+  url:    /sales/buildings/ajax
+  param:  { module: sales_building, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    
+sales_building_sync:
+  url:    /sales/buildings/sync
+  param:  { module: sales_building, action: sync, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    
+sales_building_manage:
+  url:    /sales/buildings/manage
+  param:  { module: sales_building, action: manage, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php
+    
+    
+    
+sales_listing_ajax:
+  url:    /sales/listings/ajax
+  param:  { module: sales_listing, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php
+    
+sales_listing_sync:
+  url:    /sales/listings/sync
+  param:  { module: sales_listing, action: sync, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php 
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php 
+    
+sales_listing_manage:
+  url:    /sales/listing/manage
+  param:  { module: sales_listing, action: manage, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php    
+    
+lockbox_index:
+  url:    /lockbox/index
+  param:  { module: lockbox, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php    
+    
+lockbox_ajax:
+  url:    /lockbox/ajax
+  param:  { module: lockbox, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/lockboxBaseTableClass.php
+    - model/lockboxTableClass.php
+    
+lockbox_update:
+  url:    /lockbox/update
+  param:  { module: lockbox, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/lockboxBaseTableClass.php
+    - model/lockboxTableClass.php
+    
+    
+lockbox_sync:
+  url:    /lockbox/sync
+  param:  { module: lockbox, action: sync, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/buildingsBaseTableClass.php
+    - model/buildingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/lockboxBaseTableClass.php
+    - model/lockboxTableClass.php
+    
+lockbox_maintenance:
+  url:    /lockbox/maintenance
+  param:  { module: lockbox, action: maintenance, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/buildingsBaseTableClass.php
+    - model/buildingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/lockboxBaseTableClass.php
+    - model/lockboxTableClass.php    
+    
+    
+lockbox_remove:
+  url:    /lockbox/remove
+  param:  { module: lockbox, action: remove, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/buildingsBaseTableClass.php
+    - model/buildingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/lockboxBaseTableClass.php
+    - model/lockboxTableClass.php 
+    
+lockbox_activate:
+  url:    /lockbox/activate
+  param:  { module: lockbox, action: activate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/buildingFeaturesBaseTableClass.php
+    - model/buildingFeaturesTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/doormanBaseTableClass.php
+    - model/doormanTableClass.php
+    - model/base/buildingTypeBaseTableClass.php
+    - model/buildingTypeTableClass.php
+    - model/base/ageBaseTableClass.php
+    - model/ageTableClass.php
+    - model/base/amenitiesBaseTableClass.php
+    - model/amenitiesTableClass.php
+    - model/base/buildingAmenitiesBaseTableClass.php
+    - model/buildingAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/boroughBaseTableClass.php
+    - model/boroughTableClass.php
+    - model/base/buildingsBaseTableClass.php
+    - model/buildingsTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/lockboxBaseTableClass.php
+    - model/lockboxTableClass.php    
+    
+    
+api_auth:
+  url:    /api/v1/auth/dunbar/listings
+  param:  { module: api, action: auth, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/buildingBaseTableClass.php
+    - model/buildingTableClass.php
+    - model/base/accessBaseTableClass.php
+    - model/accessTableClass.php
+    - model/base/outdoorSpaceBaseTableClass.php
+    - model/outdoorSpaceTableClass.php
+    - model/base/listingAmenitiesBaseTableClass.php
+    - model/listingAmenitiesTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/listingSizeBaseTableClass.php
+    - model/listingSizeTableClass.php
+    - model/base/listingFeaturesBaseTableClass.php
+    - model/listingFeaturesTableClass.php
+    - model/base/floorTypeBaseTableClass.php
+    - model/floorTypeTableClass.php
+    - model/base/layoutBaseTableClass.php
+    - model/layoutTableClass.php
+    - model/base/rentalAmenitiesBaseTableClass.php
+    - model/rentalAmenitiesTableClass.php
+    - model/base/neighborhoodBaseTableClass.php
+    - model/neighborhoodTableClass.php
+    - model/base/superBaseTableClass.php
+    - model/superTableClass.php
+    - model/base/listingAssignmentBaseTableClass.php
+    - model/listingAssignmentTableClass.php
+    - model/base/syncBaseTableClass.php
+    - model/syncTableClass.php
+    - model/base/salesListingBaseTableClass.php
+    - model/salesListingTableClass.php
+    - model/base/salesBuildingBaseTableClass.php
+    - model/salesBuildingTableClass.php
+    - model/base/appBaseTableClass.php
+    - model/appTableClass.php
+    
+splits_index:
+  url:    /splits/index
+  param:  { module: splits, action: index, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/landlordGroupBaseTableClass.php
+    - model/landlordGroupTableClass.php
+    - model/base/splitsBaseTableClass.php
+    - model/splitsTableClass.php
+    - model/base/agentGroupBaseTableClass.php
+    - model/agentGroupTableClass.php
+    
+splits_ajax:
+  url:    /splits/ajax
+  param:  { module: splits, action: ajax, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/landlordGroupBaseTableClass.php
+    - model/landlordGroupTableClass.php
+    - model/base/splitsBaseTableClass.php
+    - model/splitsTableClass.php

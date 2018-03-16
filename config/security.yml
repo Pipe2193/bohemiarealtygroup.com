@@ -1,0 +1,357 @@
+shfSecurity:
+  index:
+    security: false
+  setAccount:
+    security: false  
+  login:
+    security: false
+  recovery:
+    security: false  
+  logout:
+    security: true
+  noPermission:
+    security: false
+  exception:
+    security: false
+
+homepage:
+  init:
+    security: false
+    
+our-team:
+  index:
+    security: false
+    
+contact-us:
+  index:
+    security: false 
+
+work-with-us:
+  index:
+    security: false 
+    
+list-with-us:
+  index:
+    security: false
+    
+blog:
+  index:
+    security: false
+
+make-a-payment:
+  index:
+    security: false 
+
+press:
+  index:
+    security: false
+    
+we-are-uptown:
+  index:
+    security: false
+    
+mailing-list:
+  index:
+    security: false    
+    
+cms_blogs:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]   
+  insert:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+  edit:
+    security: true
+    credentials:
+      - [root, superuser, admin] 
+  update:
+    security: true
+    credentials:
+      - [root, superuser, admin]     
+  create:
+    security: true
+    credentials:
+      - [root, superuser, admin]    
+  ajax:
+    security: true
+    credentials:
+      - [root, superuser, admin]     
+  
+cms_site_pages:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]   
+  insert:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+   
+   
+default:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]
+  init:
+    security: true   
+    
+usuario:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+  ajax:
+    security: false    
+  update:
+    security: true 
+  delete:
+    security: true
+  manage:
+    security: true  
+  activate:
+    security: true  
+  deactivate:
+    security: true  
+  activation:
+    security: false
+  setCredentials:
+    security: false
+  setRequest:
+    security: true  
+ 
+credencial:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+  ajax:
+    security: false    
+  update:
+    security: true 
+  delete:
+    security: true  
+  manage:
+    security: true   
+    
+    
+team:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]  
+  ajax:
+    security: true
+  manage:
+    security: true
+
+neighborhood:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+  create:
+    security: true
+  ajax:
+    security: true  
+      
+listing:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  create:
+    security: true
+  edit:
+    security: true
+  update:
+    security: true
+  ajax:
+    security: true  
+  manage:
+    security: true  
+  search:
+    security: true
+  account:
+    security: true
+  assign:
+    security: true
+  unassign:
+    security: true
+    
+ad:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]
+  add:
+    security: true  
+landlord:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]  
+  ajax:
+    security: true  
+  manage:
+    security: true
+  edit:
+    security: true 
+  update:
+    security: true  
+   
+procedures:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]  
+  ajax:
+    security: true  
+  manage:
+    security: true
+  edit:
+    security: true 
+  update:
+    security: true
+    
+building:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  create:
+    security: true
+  edit:
+    security: true
+  update:
+    security: true
+  ajax:
+    security: true  
+  manage:
+    security: true     
+
+syndication_log:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]
+      
+hiring:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]
+  event:
+    security: true      
+  insert:
+    security: true  
+  create:
+    security: true
+  edit:
+    security: true
+  update:
+    security: true      
+      
+guestRegistration:
+  admin:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]  
+  ajax:
+    security: true 
+    
+brgdm:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]  
+  ajax:
+    security: true 
+  savoyPark:
+    security: true
+    credentials:
+      - [root, superuser, admin]   
+      
+app_landlord:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]  
+  ajax:
+    security: true
+  manage:
+    security: true
+  general:
+    security: true   
+    
+deal:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  create:
+    security: true
+  ajax:
+    security: true
+  add:
+    security: true
+  manage:
+    security: true 
+    
+sales_building:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  ajax:
+    security: true
+  manage:
+    security: true
+  sync:
+    security: false
+    
+sales_listing:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  ajax:
+    security: true
+  manage:
+    security: true
+  sync:
+    security: false
+    
+lockbox:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  edit:
+    security: true
+  update:
+    security: true
+  ajax:
+    security: true  
+  manage:
+    security: true
+    
+api:
+  auth:
+    security: false 
+    
+splits:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent] 
+  edit:
+    security: true
+  update:
+    security: true
+  ajax:
+    security: true    
+    
