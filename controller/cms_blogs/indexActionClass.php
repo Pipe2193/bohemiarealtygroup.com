@@ -54,9 +54,9 @@ class indexActionClass extends controllerClass implements controllerActionInterf
           blogTableClass::UPDATED_AT
       );
       $blogs_OrderBy = array(
-          blogTableClass::ID
+          blogTableClass::CREATED_AT
       );
-      $this->objBlogs = blogTableClass::getAll($blogs_fields, true, $blogs_OrderBy, 'ASC');
+      $this->objBlogs = blogTableClass::getAll($blogs_fields, true, $blogs_OrderBy, 'DESC');
       $this->defineView('index', 'cms_blogs', session::getInstance()->getFormatOutput());
     } catch (PDOException $exc) {
       session::getInstance()->setFlash('exc', $exc);

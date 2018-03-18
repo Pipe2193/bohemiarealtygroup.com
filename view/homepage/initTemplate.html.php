@@ -1,9 +1,8 @@
 <?php
-
 use mvc\routing\routingClass as routing;
 use mvc\view\viewClass as view;
 use mvc\session\sessionClass as session;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div id="home">
     <!-- begin desktop -->
@@ -26,10 +25,10 @@ use mvc\session\sessionClass as session;
         <div class="grid-container">
             <div class="row">
                 <div class="small-12 mlarge-6">
-                    <a class="button success" href="<?php echo routing::getInstance()->getUrlWeb("our-properties", "rentals") ?>">Looking to Rent</a>
+                    <a class="button success" href="<?php echo routing::getInstance()->getUrlWeb("our-properties", "sales") ?>">Looking to Buy</a>
                 </div>
                 <div class="small-12 mlarge-6">
-                    <a class="button success" href="<?php echo routing::getInstance()->getUrlWeb("our-properties", "sales") ?>">Looking to Buy</a>
+                    <a class="button success" href="<?php echo routing::getInstance()->getUrlWeb("our-properties", "rentals") ?>">Looking to Rent</a>
                 </div>
             </div>
         </div>
@@ -227,7 +226,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4 >1 BED |<br> 1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -242,7 +241,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED | 2 BATH<br>
+                                                        <h4>3 BED |<br> 2 BATH
                                                             $4,500</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -257,7 +256,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br> 1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -278,7 +277,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br> 1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -293,7 +292,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED | 2 BATH<br>
+                                                        <h4>3 BED | <br> 2 BATH
                                                             $4,500</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -308,7 +307,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br> 1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -329,7 +328,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br>1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -344,7 +343,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED | 2 BATH<br>
+                                                        <h4>3 BED |<br> 2 BATH
                                                             $4,500</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -359,7 +358,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br>1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -380,7 +379,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br>1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -395,7 +394,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED | 2 BATH<br>
+                                                        <h4>3 BED | <br>2 BATH
                                                             $4,500</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -410,7 +409,7 @@ use mvc\session\sessionClass as session;
                                                 </div>
                                                 <div class="property-info row">
                                                     <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | 1 BATH<br>
+                                                        <h4>1 BED | <br> 1 BATH
                                                             $5,000</h4>
                                                     </div>
                                                     <div class="split small-6 columns align-self-middle">
@@ -566,7 +565,7 @@ use mvc\session\sessionClass as session;
             <h3 class="grid-container">We have the largest portfolio of exclusive properties in Upper Manhattan</h3>
         </div>
         <div class="row">
-            <div class="columns small-12 mlarge-offset-1 mlarge-10 end">Bohemia Realty Group is a dynamic team of dedicated real estate professionals that focus on residential rentals and sales in Upper Manhattan. Our agents are neighborhood specialists; over 90% of Bohemiaagents call uptown home, and can provide first-hand knowledge about the lifestyle at the top of the island. Our mission is a three pronged approach to improving quality of life: to service clients in an efficient, friendly way; to create a positive work environment for our agents and employees; and to enrich the community above 96th Street.
+            <div class="columns small-12 mlarge-offset-1 mlarge-10 end">Bohemia Realty Group is a dynamic team of dedicated real estate professionals that focus on residential rentals and sales in Upper Manhattan. Our agents are neighborhood specialists; over 90% of Bohemia agents call uptown home, and can provide first-hand knowledge about the lifestyle at the top of the island. Our mission is a three pronged approach to improving quality of life: to service clients in an efficient, friendly way; to create a positive work environment for our agents and employees; and to enrich the community above 96th Street.
             </div>
         </div>
     </div><!-- grid-container -->
@@ -594,4 +593,5 @@ use mvc\session\sessionClass as session;
         </div>
     </div><!-- footer cell -->
 </div><!-- home -->
+
 <?php echo view::includePartial("partials/homepage/footerBar"); ?>

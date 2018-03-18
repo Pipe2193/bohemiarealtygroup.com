@@ -2,8 +2,7 @@ all:
   favicon: favicon/favicon.ico
   title: Welcome | Bohemia Realty Group
   meta:
-    - http-equiv="Content-Type" content="text/html;charset=UTF-8"
-    - charset="utf-8"
+    - http-equiv="Content-Type" content="text/html; charset=UTF-8"
     - http-equiv="X-UA-Compatible" content="IE=edge"
     - name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
     - name="mobile-web-app-capable" content="yes"

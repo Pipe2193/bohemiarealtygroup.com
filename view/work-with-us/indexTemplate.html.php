@@ -10,7 +10,7 @@ use mvc\session\sessionClass as session;
         <video class="video" width="100%" height="90%" preload="auto" autoplay>
             <source src="<?php echo routing::getInstance()->getUrlImg("homepage/SHANNA-SHARP-list-with-us.mp4") ?>" type="video/mp4" >
         </video> 
-        <div class="video-overlay"><i class="fa fa-play" aria-hidden="true"></i></div>
+         
         <div class="grid-container">
             <div class="mlarge-offset-1 columns row">
                 <h2>Join the #1 Firm in Upper Manhattan</h2>

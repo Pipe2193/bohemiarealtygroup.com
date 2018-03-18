@@ -255,7 +255,7 @@ $profile_hash = profileTableClass::PROFILE_HASH;
                             </li>
                             <li><a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "index") ?>" > Blogs Manager </a>
 
-                            <li><a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "insert") ?>">Add New Blog Post</a></li>
+                            <li><a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "insert") ?>">New Blog Post</a></li>
 
                             <?php
                             if (session::getInstance()->getFlash("edit_blog_post")) {

@@ -25,11 +25,13 @@ use mvc\session\sessionClass as session;
         <div class="row">
             <div class="small-12 mlarge-3 columns">
                 <a href="/" class="footer-logo"><img src="<?php echo routing::getInstance()->getUrlImg("homepage/bohemia_logo_white.svg"); ?>"></a>
-                <p>
+                <p class="footer-social-media">
+
                     <a href="https://instagram.com/bohemiarealty" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="https://twitter.com/BohemiaRealtyGr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     <a href="https://www.facebook.com/pages/Bohemia-Realty-Group/105709759554291?ref=hl" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="https://www.pinterest.com/bohemiarealty" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+
                 </p>
             </div>
             <div class="small-12 mlarge-7 columns">
@@ -37,8 +39,7 @@ use mvc\session\sessionClass as session;
                 <address><b>Bohemia Washington Heights</b> - 3880 Broadway, New York, NY 10032 | Phone: <a href="tel:646.661.1579">646.661.1579</a></address>
                 <p>Email: <a href="mailto:info@bohemiarealtygroup.com">info@bohemiarealtygroup.com</a> Fax: 866.598.1059.</p>
                 <p><b>Copyright &#64; <?php echo date('Y'); ?> Bohemia Realty Group LLC. All Rights Reserved.</b></p>
-                <p>Bohemia Realty Group is a proud member of the Real Estate Board of New York (REBNY) and an Equal Housing Opportunity provider.</p>
-                <p>*All information presented on this site regarding real property, for sale, rental and/or financing is from sources deemed reliable. No warranty or representation is made as to the accuracy thereof and same is submitted subject to errors, omissions, change of price, rentals or other conditions, prior sale, lease or financing or withdrawal without notice.</br><b> Note: All dimensions &amp;&nbsp;square footage are approximate. For exact dimensions &amp;&nbsp;square footage please hire your own architect or engineer.</b></p>
+
             </div>
             <div id="payment" class="small-12 mlarge-2 columns desktop">
                 <p><img src="<?php echo routing::getInstance()->getUrlImg("homepage/rebnylogowhite.png"); ?>"></p>
@@ -50,5 +51,7 @@ use mvc\session\sessionClass as session;
         <p><img src="<?php echo routing::getInstance()->getUrlImg("homepage/rebnylogowhite.png"); ?>"></p>
         <a class="payment" href="<?php echo routing::getInstance()->getUrlWeb("make-a-payment", "index") ?>"><h5>Make a Payment</h5></a>
     </div>
+    <p style="width: 80%; display: block; margin: auto;">Bohemia Realty Group is a proud member of the Real Estate Board of New York (REBNY) and an Equal Housing Opportunity provider.</p>
+      <p style="width: 80%; display: block; margin: auto;">*All information presented on this site regarding real property, for sale, rental and/or financing is from sources deemed reliable. No warranty or representation is made as to the accuracy thereof and same is submitted subject to errors, omissions, change of price, rentals or other conditions, prior sale, lease or financing or withdrawal without notice.</br><b> Note: All dimensions &amp;&nbsp;square footage are approximate. For exact dimensions &amp;&nbsp;square footage please hire your own architect or engineer.</b></p>
 </footer>
 <!-- ********************************************************** END FOOTER BAR **************************************************  -->

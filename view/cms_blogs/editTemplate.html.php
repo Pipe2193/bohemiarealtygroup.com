@@ -34,100 +34,6 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                         <?php endif ?>
                         </br>
                         <div class="x_panel">
-                            <!--                            <div class="hidden-xs x_title">
-                                                            <h2><i class="fa fa-plus-square" aria-hidden="true"></i> New Post</h2>
-                                                            <ul class="nav navbar-right panel_toolbox">
-                                                                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                                                </li>
-                                                            </ul>
-                                                            <div class="clearfix"></div>
-                                                        </div>-->
-                            <div class="x_content">
-                                <div class="page-title-bohemia ">
-                                    <h3><i class="fa fa-file-text-o" aria-hidden="true"></i> Edit Post </h3>
-                                </div>
-
-                                <div class="panel panel-success">
-                                    <div class="panel-body">
-                                        <div class="btn-group   pull-left">
-                                            <a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "index"); ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect " type="button"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go Back</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--                                <div class="panel panel-bohemia">
-                                                                    <div class="panel-heading">
-                                                                        <h3 class="panel-title"><i class="fa fa-upload" aria-hidden="true"></i> Blog Images </h3>
-                                                                    </div>
-                                                                    <div class="panel-body">
-                                                                        <div class="row">
-                                                                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                                                                <table class="table">
-                                                                                    <tr> 
-                                                                                        <td class="section_upload"> <b>Upload File:</b> </td>       
-                                <?php if (!empty($uploadinfo1->filepath_uploader)) { ?>
-                                                                                                                                                      <td> <b>File 1:</b> </td> 
-                                                                                                                                                      <td id="filename"><?php echo getFileNamePhotoId($_SESSION['onaf_uploader_id_module']) ?></td>
-                                                                                                                                                  <script>
-                                                                                                                                                    $(document).ready(function () {
-                                                                                                                                                        $('.section_upload').hide();
-                                                                                                                                                        $('#section_uploadbtn').hide();
-                                                                                            
-                                                                                                                                                        var deleteImage = $("#deleteImage");
-                                                                                                                                                        var filename = $("#filename");
-                                                                                            
-                                                                                                                                                        deleteImage.click(function (e) {
-                                                                                                                                                            var filenameval = filename.val();
-                                                                                                                                                            $.ajax({
-                                                                                                                                                                async: false,
-                                                                                                                                                                type: "POST",
-                                                                                                                                                                dataType: "html",
-                                                                                                                                                                contentType: "application/x-www-form-urlencoded",
-                                                                                                                                                                url: urlajaxupload,
-                                                                                                                                                                data: ('deleteImage=' + filenameval),
-                                                                                                                                                                success: function (data) {
-                                                                                                                                                                    window.location.reload();
-                                                                                                                                                                }
-                                                                                                                                                            });
-                                                                                                                                                        });
-                                                                                                                                                    });
-                                                                                                                                                  </script>
-                                                                                                                                                  <td>    
-                                                                                                                                                      <button type="button" class="btn btn-danger delete_btn" id="deleteImage"><?php echo $GLOBALS ['upload_message_7']; ?></button>
-                                                                                                                                                  </td>
-                                <?php } else { ?>
-                                                                                                                                                  <p><small>Fields marked with (*) are mandatory.</small></p>
-                                                                                                                                                  <div class="form-group">
-                                                                                                                                                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                                                                                          <input type="text" class="form-control has-feedback-left" name="profileLastName" id="profileLastName" placeholder="Alternative Text">
-                                                                                                                                                          <span class="fa fa-file-text form-control-feedback left" aria-hidden="true"></span>
-                                                                                                                                                      </div>
-                                                                                                                                                      <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
-                                                                                                                                                          <input type="text" class="form-control has-feedback-left" name="profileLastName" id="profileLastName" placeholder="Image Title Attribute">
-                                                                                                                                                          <span class="fa fa-file-image-o form-control-feedback left" aria-hidden="true"></span>
-                                                                                                                                                      </div>
-                                                                                                                                                      <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                                                                            
-                                                                                                                                                          <textarea type="text" class="form-control has-feedback-left" id="<?php echo landlordTableClass::getNameField(landlordTableClass::ADDRESS, true) ?>" name="<?php echo landlordTableClass::getNameField(landlordTableClass::ADDRESS, true) ?>" placeholder=" Caption " required></textarea>
-                                                                                                                                                          <span class="fa fa-file-text form-control-feedback left" aria-hidden="true"></span>
-                                                                                                                                                      </div>
-                                                                                                                                                  </div>
-                                                                                                                                                  <td class="section_upload">
-                                                                                            
-                                                                                                                                                      <input name="upfile" class="form-control inputpmi input_upload" accept="image/jpg, image/jpeg, image/png, application/pdf" type="file" id="upfile"/>
-                                                                                                                                                  </td>
-                                                                                                                                                  <td id="section_uploadbtn">
-                                                                                                                                                      <input type="button" id="uploadfile" class="btn btn-success btn_upload" value="UPLOAD" />
-                                                                                                                                                  </td>
-                                <?php } ?>  
-                                                                                    </tr>
-                                                                                    <tr><td colspan="3" class="messages"></td></tr>
-                                                                                </table>
-                                                                            </div>
-                                                                        </div>
-                                
-                                                                    </div>
-                                                                </div>-->
 
                                 <form id="editBlogPost" class=" form-horizontal form-label-left" role="form" method="POST" action="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "update", array('hash' => $objBlog[0]->$blog_hash)); ?>" >
 
@@ -244,27 +150,27 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                                           </div>
                                           <script>
                                             $(document).ready(function () {
-
+                                                
                                                 CKEDITOR.replace("blog[<?php echo $i ?>][<?php echo blogTableClass::getNameField(blogTableClass::BLOG_CONTENT, true); ?>]", {
                                                     customConfig: path_absolute + "assets/vendors/ckeditor/config.js?time()"
                                                 });
+                                                var editor = $("#blog[<?php echo $i ?>][<?php echo blogTableClass::getNameField(blogTableClass::BLOG_CONTENT, true); ?>]");
+                                                editor.on('change', function (evt) {
+                                                    var idBlock = this.element.data("id");
+                                                    var blog_content = evt.editor.getData();
+                                                    var urlajax = url + '/CMS/blogs/ajax';
+                                                    $.ajax({
+                                                        async: true,
+                                                        type: "POST",
+                                                        dataType: "html",
+                                                        contentType: "application/x-www-form-urlencoded",
+                                                        url: urlajax,
+                                                        data: ('block_id=' + idBlock  + '&block_content=' + blog_content),
+                                                        success: function (data) {
 
-//                                                editor.on('change', function (evt) {
-//                                                    var idBlock = this.element.data("id");
-//                                                    var blog_content = evt.editor.getData();
-//                                                    var urlajax = url + '/CMS/blogs/ajax';
-//                                                    $.ajax({
-//                                                        async: true,
-//                                                        type: "POST",
-//                                                        dataType: "html",
-//                                                        contentType: "application/x-www-form-urlencoded",
-//                                                        url: urlajax,
-//                                                        data: {'block_id=' + idBlock + '&block_content=' + blog_content},
-//                                                        success: function (data) {
-//
-//                                                        }
-//                                                    });
-//                                                });
+                                                        }
+                                                    });
+                                                });
                                             });
                                           </script>
                                           <?php

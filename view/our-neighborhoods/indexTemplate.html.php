@@ -3,7 +3,7 @@
 use mvc\routing\routingClass as routing;
 use mvc\view\viewClass as view;
 use mvc\session\sessionClass as session;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div id="our-neighborhoods">
     <div class="grid-container">
@@ -28,7 +28,7 @@ use mvc\session\sessionClass as session;
         </div>
         <div class="row mobile">
             <div class="small-6 columns">
-                <img src="<?php echo routing::getInstance()->getUrlImg("homepage/our-neighborhoods-mobile.jpg") ?>" alt="Our Neighborhoods" title="Our Neighborhoods">
+                <img id="neighborhood-map-img" src="<?php echo routing::getInstance()->getUrlImg("homepage/our-neighborhoods-mobile.jpg") ?>" alt="Our Neighborhoods" title="Our Neighborhoods">
             </div>
             <div class="small-6 columns">
                 <h3><a href="/our-neighborhoods/inwood.html">Inwood</a></h3>

@@ -373,6 +373,33 @@ CMS_blogs_create:
     - model/base/blogGroupBaseTableClass.php
     - model/blogGroupTableClass.php
     
+CMS_blogs_sync:
+  url:    /CMS/blogs/sync
+  param:  { module: cms_blogs, action: sync, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php 
+    - model/base/blogPostBaseTableClass.php
+    - model/blogPostTableClass.php 
+    
 CMS_blogs_edit:
   url:    /CMS/blogs/edit
   param:  { module: cms_blogs, action: edit, format: html }

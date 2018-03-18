@@ -678,6 +678,11 @@ textarea {
 .small-6 {
     width: 50%; }
 
+    .small-6.columns h4{
+      font-size: 1.8vw !important;
+      width: 90% !important;
+    }
+
 .small-push-6 {
     position: relative;
     left: 50%; }
@@ -9214,7 +9219,9 @@ form.search button i {
 
 .hero {
     background-color: #5a8e45;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    position: relative;
+  }
 .hero h2, .hero .h2 {
     color: white;
     font-weight: bold;
@@ -9268,7 +9275,7 @@ form.search button i {
 .top-bar .top-bar-right ul.menu li.has-submenu > a::after {
     display: none; }
 .top-bar .top-bar-right ul.menu li.has-submenu .submenu {
-    
+
     border: none; }
 @media screen and (min-width: 62em) {
     .top-bar .top-bar-right ul.menu li.has-submenu .submenu {
@@ -9318,7 +9325,7 @@ form.search button i {
 .top-bar .title-bar .menu-icon, .top-bar .title-bar .menu-icon:hover, .top-bar .title-bar .menu-icon::after {
     background: #505050;
     box-shadow: 0 -0.85em #505050, 0 0.85em #505050;
-    height: .45em;
+    height: .25em;
     width: 3.5em; }
 
 .socials.column.row.row, .socials.row.row.columns {
@@ -9606,6 +9613,178 @@ footer #payment.mobile img {
 
 #home #open-houses.orbit.desktop .property-info {
     min-height: 202px; }
+
+.submenu.menu.vertical{
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .top-bar.float-left{
+    margin-bottom: 0px;
+    margin-top: -10px;
+    background-color: transparent;
+    padding-bottom: 10px;
+  }
+  #bohemia-logo{
+    margin-top: 10% !important;
+  }
+}
+
+@media (min-width: 993px){
+  h3.our-dev-h3{
+    font-size: 2.1vw;
+  }
+  .our-dev-descriptions-div {
+      overflow: hidden;
+      height: 55px;
+      line-height: 25px;
+
+  }
+  .our-dev-descriptions-div:before {
+      content:"";
+      float: left;
+      width: 5px;
+      height: 200px;
+  }
+  .our-dev-descriptions-div > *:first-child {
+      float: right;
+      width: 100%;
+      margin-left: -5px;
+  }
+
+  .our-dev-descriptions-div:after {
+      content:"\02026";
+      box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      top: 25px;
+      left: 107%;
+      position: relative;
+      width: 3em;
+      margin-left: -3em;
+      padding-right: 5px;
+      text-align: right;
+      background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(white), color-stop(50%, white));
+      background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      background: -o-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+  }
+  .footer-social-media i{
+    font-size: 3vw !important;
+  }
+}
+
+@media (max-width: 992px){
+  h3.our-dev-h3{
+    font-size: auto !important;
+  }
+  .our-dev-descriptions-div {
+      overflow: hidden;
+      height: 55px;
+      line-height: 25px;
+
+  }
+  .our-dev-descriptions-div:before {
+      content:"";
+      float: left;
+      width: 5px;
+      height: 200px;
+  }
+  .our-dev-descriptions-div > *:first-child {
+      float: right;
+      width: 100%;
+      margin-left: -5px;
+  }
+
+  .our-dev-descriptions-div:after {
+      content:"\02026";
+      box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      top: 25px;
+      left: 107%;
+      position: relative;
+      width: 3em;
+      margin-left: -3em;
+      padding-right: 5px;
+      text-align: right;
+      background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(white), color-stop(50%, white));
+      background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      background: -o-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+  }
+  .footer-social-media i{
+    font-size: 8vw !important;
+  }
+}
+
+.button{
+  padding: 10px !important;
+}
+
+.footer-social-media{
+  margin-left: -10px !important;
+}
+
+h3 {
+  font-weight: 500 !important;
+}
+
+#leo-logo{
+  width: 20%;
+  position: absolute;
+  top: 1%;
+  animation: fade-in-leo 3s;
+  transition: 1s ease-in;
+}
+
+@keyframes fade-in-leo{
+  0%{
+    opacity: 0;
+  }50%{
+    opacity: 0;
+  } 100%{
+    opacity: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-bar.float-left{
+    margin-bottom: 0px !important;
+    margin-top: -10px;
+    background-color: transparent;
+    padding-bottom: 10px;
+  }
+  #connect-with-us{
+    position: absolute;
+    left: 6%;
+    top: 5%;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  #neighborhood-map-img{
+    margin-top: 30%;
+  }
+}
+
+.menu-icon{
+  height: .25em !important;
+  width: 3.5em;
+}
+
+#connect-with-us{
+    position: absolute;
+      left: 6%;
+      top: 5%;
+}
+
+
+
+.submenu.menu.vertical.is-dropdown-submenu.first-sub.notransition {
+  opacity: 1;
+}
 
 #home .mobile hr {
     border-color: #c7c8c9;

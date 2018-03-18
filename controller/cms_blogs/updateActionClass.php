@@ -34,18 +34,11 @@ class updateActionClass extends controllerClass implements controllerActionInter
         $blog = request::getInstance()->getPost("blog");
         $block = request::getInstance()->getPost("block");
 
-
-
-
         for ($i = 0; $i <= count($blog); $i++) {
-
-
 
           $blog_content = $blog[$i][blogTableClass::getNameField(blogTableClass::BLOG_CONTENT, true)];
 
           $block_id_blog = $block[$i][id];
-
-
 
           if ($i === 0) {
 

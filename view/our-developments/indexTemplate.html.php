@@ -3,13 +3,13 @@
 use mvc\routing\routingClass as routing;
 use mvc\view\viewClass as view;
 use mvc\session\sessionClass as session;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div class="hero cell">
     <img src="<?php echo routing::getInstance()->getUrlImg("homepage/our-developments.jpg") ?>" alt="Our Developments" title="Our Developments">
     <div class="grid-container">
         <div class="column row">
-            <h2>Our Developments</h2>
+            <h2 style="margin-left: 5%;">Development</h2>
         </div>
     </div>
 </div>
@@ -23,8 +23,10 @@ use mvc\session\sessionClass as session;
             <img src="<?php echo routing::getInstance()->getUrlImg("homepage/the-leo.jpg") ?>" alt="The Leo" title="The Leo">
         </div>
         <div class="small-12 mlarge-5 columns align-self-middle">
-            <h3>the leo&nbsp;&mdash;<br>427 West 154th</h3>
-            <p>Set on a beautiful tree-lined block, this prewar Neo-Renaissance structure was built in 1901. John P. Leo, the original developer and architect...</p>
+            <h3 class="our-dev-h3">the leo&nbsp;&mdash;<br>427 West 154th</h3>
+            <div class="our-dev-descriptions-div">
+            <p>Set on a beautiful tree-lined block, this prewar Neo-Renaissance structure was built in 1901. John P. Leo, the original developer</p>
+          </div>
             <a href="" class="button">see the leo</a>
         </div>
     </div>
@@ -33,8 +35,10 @@ use mvc\session\sessionClass as session;
             <img src="<?php echo routing::getInstance()->getUrlImg("homepage/park-hill.jpg") ?>" alt="Park Hill" title="Park Hill">
         </div>
         <div class="small-12 mlarge-5 columns align-self-middle">
-            <h3>Park Hill&nbsp;&mdash;<br>471-476 Central Park West</h3>
-            <p>Prewar elegance meets modern luxury at Park Hill, with over 45 finely renovated apartments at Central Park’s doorstep...</p>
+            <h3 class="our-dev-h3">Park Hill&nbsp;&mdash;<br>471-476 Central Park West</h3>
+            <div class="our-dev-descriptions-div">
+            <p>Prewar elegance meets modern luxury at Park Hill, with over 45 finely renovated apartments at Central Park’s doorstep</p>
+          </div>
             <a href="<?php echo routing::getInstance()->getUrlWeb("our-developments", "theLeo") ?>" class="button">see Park Hill</a>
         </div>
     </div><div class="column row">
@@ -45,8 +49,10 @@ use mvc\session\sessionClass as session;
             <img src="<?php echo routing::getInstance()->getUrlImg("homepage/savoy-park.jpg") ?>" alt="Savoy Park Apartments" title="Savoy Park Apartments">
         </div>
         <div class="small-12 mlarge-5 columns align-self-middle">
-            <h3>Savoy Park Apartments&nbsp;&mdash;<br>45 West 139th</h3>
-            <p>Savoy Park is a unique rental community in the heart of Central Harlem. Located on the spot where Harlem’s HISTORIC Savoy Ballroom once stood...</p>
+            <h3 class="our-dev-h3" >Savoy Park Apartments&nbsp;&mdash;<br>45 West 139th</h3>
+            <div class="our-dev-descriptions-div">
+            <p>Savoy Park is a unique rental community in the heart of Central Harlem. Located on the spot where Harlem’s HISTORIC Savoy</p>
+              </div>
             <a href="https://www.savoyparkapartments.com/index.html" class="button">See Savoy Park</a>
         </div>
     </div>
@@ -55,8 +61,10 @@ use mvc\session\sessionClass as session;
             <img src="<?php echo routing::getInstance()->getUrlImg("homepage/northwood-uws.jpg") ?>" alt="Northwood UWS" title="Northwood UWS">
         </div>
         <div class="small-12 mlarge-5 columns align-self-middle">
-            <h3>Northwood UWS&nbsp;&mdash;<br>471 Central Park West</h3>
-            <p>Welcome to Northwood, a collection of five pre-war no-fee boutique rental properties in the picturesque Upper West Side...</p>
+            <h3 class="our-dev-h3">Northwood UWS&nbsp;&mdash;<br>471 Central Park West</h3>
+            <div class="our-dev-descriptions-div">
+            <p>Welcome to Northwood, a collection of five pre-war no-fee boutique rental properties in the picturesque Upper West Side</p>
+            </div>
             <a href="<?php echo routing::getInstance()->getUrlWeb("our-developments", "northwoodUws") ?>" class="button">see Northwood UWS</a>
         </div>
     </div>

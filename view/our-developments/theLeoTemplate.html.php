@@ -3,10 +3,11 @@
 use mvc\routing\routingClass as routing;
 use mvc\view\viewClass as view;
 use mvc\session\sessionClass as session;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div class="hero cell">
     <img src="<?php echo routing::getInstance()->getUrlImg("homepage/The_Leo/The-Leo_Banner.png") ?>" alt="The Leo" title="The Leo">
+    <img id="leo-logo" src="<?php echo routing::getInstance()->getUrlImg("leo-logo.png") ?>"alt="Leo Logo" />
     <div class="grid-container">
         <div class="column row">
             <h2>The Leo – 427 W 154th</h2>

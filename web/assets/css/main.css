@@ -1,7 +1,7 @@
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575px) { 
+@media (max-width: 575px) {
 
     .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
         padding: 5px;
@@ -104,6 +104,7 @@
 .panel-bohemia {
     border-color: #314821;
 }
+
 .panel-bohemia > .panel-heading {
     color: #fff;
     background-color: #314821;
@@ -190,14 +191,14 @@ switch checkbox*/
 
 
 .material-switch > input[type="checkbox"] {
-    display: none;   
+    display: none;
 }
 
 .material-switch > label {
     cursor: pointer;
     height: 0px;
-    position: relative; 
-    width: 40px;  
+    position: relative;
+    width: 40px;
 }
 
 .material-switch > label::before {
@@ -245,11 +246,11 @@ switch checkbox*/
 
 
 
-.pagination>.active>a, 
-.pagination>.active>a:focus, 
-.pagination>.active>a:hover, 
-.pagination>.active>span, 
-.pagination>.active>span:focus, 
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
 .pagination>.active>span:hover {
     z-index: 3 !important;
     color: #fff !important;
@@ -259,7 +260,7 @@ switch checkbox*/
 }
 
 table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
-    background-color: #689843 !important;   
+    background-color: #689843 !important;
 }
 
 table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
@@ -350,7 +351,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, tabl
 
 .site_title i {
     border: 1px solid #EAEAEA;
-    border-radius: 0; 
+    border-radius: 0;
 }
 
 .menu_section h3 {

@@ -36,6 +36,7 @@ if (config::getScope() == 'dev') {
             . ':host=' . config::getDbHost()
             . ';port=' . config::getDbPort()
             . ';dbname=' . config::getDbName()
+            . ';charset=utf8;'
     );
   }
 
@@ -62,16 +63,17 @@ if (config::getScope() == 'dev') {
             . ':host=' . config::getBohemiaDbHost()
             . ';port=' . config::getBohemiaDbPort()
             . ';dbname=' . config::getBohemiaDbName()
+            . ';charset=utf8;'
     );
   }
 
   if (config::getRemoteAccess() == 'on') {
     $remote_address = $_SERVER['SERVER_ADDR'];
-    config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup/');
-    config::setUrlBase('http://' . $remote_address . '/bohemiarealtygroup/web/');
+    config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup.com/');
+    config::setUrlBase('http://' . $remote_address . '/bohemiarealtygroup.com/web/');
   } elseif (config::getRemoteAccess() == 'off') {
-    config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup/');
-    config::setUrlBase('http://localhost/bohemiarealtygroup/web/');
+    config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup.com/');
+    config::setUrlBase('http://localhost/bohemiarealtygroup.com/web/');
   }
 } elseif (config::getScope() == 'prod') {
 

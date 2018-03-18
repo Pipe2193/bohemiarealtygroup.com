@@ -29,20 +29,20 @@ $usuario_id = blogTableClass::USUARIO_ID;
                         </br>
                         <div class="x_panel">
                             <div class=" hidden-xs x_title">
-                                <h2><i class="fa fa-file-text-o" aria-hidden="true"></i> Blog Posts </h2>
+                                <h2><i class="fa fa-file-text-o" aria-hidden="true"></i> Blog Manager </h2>
 
                                 <div class="clearfix"></div>
                             </div>
                             <div class="x_content">
                                 <div class="page-title-bohemia visible-xs">
-                                    <h4 class="text-center"><i class="fa fa-file-text-o" aria-hidden="true"></i> Blog Posts</h4>
+                                    <h4 class="text-center"><i class="fa fa-file-text-o" aria-hidden="true"></i> Blog Manager</h4>
                                 </div>
 
                                 <div class="panel panel-success">
                                     <div class="panel-body">
                                         <div class=" pull-right">
                                             <a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "insert") ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--dark" type="button"><i class="fa fa-list-alt" aria-hidden="true"></i> <b> Drafts</b></a>
-                                            <a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "insert") ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="button"><i class="fa fa-plus-square-o" aria-hidden="true"></i> <b>Add Blog Post</b></a>
+                                            <a href="<?php echo routing::getInstance()->getUrlWeb("cms_blogs", "insert") ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="button"><i class="fa fa-plus-square-o" aria-hidden="true"></i> <b>New Blog Post</b></a>
                                         </div>
                                     </div>
                                 </div>

@@ -3,14 +3,14 @@
 use mvc\routing\routingClass as routing;
 use mvc\view\viewClass as view;
 use mvc\session\sessionClass as session;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div id="who-we-are">
     <div class="hero cell">
         <video class="video" width="100%" height="90%" preload="auto" autoplay>
             <source src="<?php echo routing::getInstance()->getUrlImg("homepage/SARAH-SALTZBERG-we-are-uptown.mp4") ?>" type="video/mp4" >
-        </video> 
-        <div class="video-overlay"><i class="fa fa-play" aria-hidden="true"></i></div>
+        </video>
+
         <div class="grid-container">
             <div class="column row">
                 <h2>We Are Uptown</h2>
@@ -27,8 +27,8 @@ use mvc\session\sessionClass as session;
             <div class="split small-12 mlarge-6 columns">
                 <hr>
                 <a class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("our-team", "index") ?>">Meet Our Team</a>
-                <p>Please feel free to pass on to others who you think may be interested!<br><a class="link" target="_blank" href=" https://dev.brg-ny.com/hiring/index.php?Bohemia-is-Hiring">Please click here to RSVP if you are interested in becoming part of the team.</a></p>
-                <a class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("blog", "index") ?>">What’s Happening This Week in Upper Manhattan</a>
+                <p style="text-align: center;"><a class="link" target="_blank" href=" https://dev.brg-ny.com/hiring/index.php?Bohemia-is-Hiring" style="text-align: center;">Please click here to RSVP if you are <br />interested in becoming part of the team.</a></p>
+                <a class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("blog", "index") ?>">What’s Happening This Week<br /> In Upper Manhattan</a>
             </div>
         </div>
     </div>

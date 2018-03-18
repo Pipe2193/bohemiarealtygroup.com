@@ -53,10 +53,11 @@ $(document).ready(function () {
      * @type String
      */
     var $enviroment = 'dev';
+//    function routing($module, $action, $enviroment) {
 
     if ($enviroment == 'dev') {
-        url = 'http://localhost/bohemiarealtygroup/web/index.php/';
-        path_absolute = 'http://localhost/bohemiarealtygroup/web/';
+        url = 'http://localhost/bohemiarealtygroup.com/web/index.php/';
+        path_absolute = 'http://localhost/bohemiarealtygroup.com/web/';
     } else if ($enviroment == 'testing') {
         url = 'https://dev.brg-ny.com/web/index.php/';
         path_absolute = 'https://dev.brg-ny.com/web/';
