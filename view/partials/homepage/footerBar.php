@@ -49,7 +49,7 @@ use mvc\session\sessionClass as session;
     </div>
     <div id="payment" class="cell mobile">
         <p><img src="<?php echo routing::getInstance()->getUrlImg("homepage/rebnylogowhite.png"); ?>"></p>
-        <a class="payment" href="<?php echo routing::getInstance()->getUrlWeb("make-a-payment", "index") ?>"><h5>Make a Payment</h5></a>
+        <a class="payment " href="<?php echo routing::getInstance()->getUrlWeb("make-a-payment", "index") ?>"><h5>Make a Payment</h5></a>
     </div>
     <p style="width: 80%; display: block; margin: auto;">Bohemia Realty Group is a proud member of the Real Estate Board of New York (REBNY) and an Equal Housing Opportunity provider.</p>
       <p style="width: 80%; display: block; margin: auto;">*All information presented on this site regarding real property, for sale, rental and/or financing is from sources deemed reliable. No warranty or representation is made as to the accuracy thereof and same is submitted subject to errors, omissions, change of price, rentals or other conditions, prior sale, lease or financing or withdrawal without notice.</br><b> Note: All dimensions &amp;&nbsp;square footage are approximate. For exact dimensions &amp;&nbsp;square footage please hire your own architect or engineer.</b></p>

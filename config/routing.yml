@@ -179,6 +179,22 @@ blog_index:
     - model/blogTableClass.php
     - model/base/blogGroupBaseTableClass.php
     - model/blogGroupTableClass.php
+    
+blog_post:
+  url:    /blog/post
+  param:  { module: blog, action: post, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/blogBaseTableClass.php
+    - model/blogTableClass.php
+    - model/base/blogGroupBaseTableClass.php
+    - model/blogGroupTableClass.php
 
 make_a_payment_index:
   url:    /make-a-payment

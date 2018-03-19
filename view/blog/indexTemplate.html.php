@@ -31,7 +31,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
 //        }
         ?>
         <div class="cell" id="blog-image">
-            <a href="your-guide-to-the-best-day-trip-from-nyc-no-headers.html" alt="<?php echo $objBlogs[0]->$meta_description_blog; ?>" title="<?php echo $objBlogs[0]->$title_blog; ?>">
+            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objBlogs[0]->$blog_hash, blogTableClass::getNameField("post", true) => $objBlogs[0]->$page_url_blog)) ?>" alt="<?php echo $objBlogs[0]->$meta_description_blog; ?>" title="<?php echo $objBlogs[0]->$title_blog; ?>">
                 <img src="<?php echo routing::getInstance()->getUrlImg("homepage/blog-post1.jpg") ?>" />
             </a>
         </div>
@@ -42,7 +42,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
         <div class="cell" id="blog-title">
             <div class="grid-container">
                 <div class="column row">
-                    <h2><?php echo $objBlogs[0]->$title_blog ?></h2>
+                    <h2><?php echo $objBlogs[0]->$title_blog;?></h2>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
             <div class="grid-container">
                 <div class="column row">
                     <div class="grid-container" style="margin-top: 10px;">
-                        <p ><?php echo str_replace(" ' ", "&apos;", $objBlogs[0]->$meta_description_blog); ?> ...<a class="link" href="<?php echo $objBlogs[0]->$page_url_blog ?>">Read More</a></p>
+                        <p ><?php echo str_replace(" ' ", "&apos;", $objBlogs[0]->$meta_description_blog); ?> ...<a class="link" href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objBlogs[0]->$blog_hash, blogTableClass::getNameField("post", true) => $objBlogs[0]->$page_url_blog)) ?>">Read More</a></p>
                         <br><h6 class="grid-container">Posted on  <?php echo date("d F Y ", strtotime($objBlogs[0]->$created_at)); ?>  by Agent <?php echo profileTableClass::getProfileByUserId($objBlogs[0]->$usuario_id); ?></h6>
                     </div>
 
@@ -75,7 +75,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                             <div class="row">
                                 <div class="mlarge-4 columns"><img src="<?php echo routing::getInstance()->getUrlImg("homepage/blog-content4.jpg") ?>"></div>
                                 <div class="mlarge-8 columns">
-                                    <p><?php echo $objBlogs[$blog_c]->$meta_description_blog ?> ...<a class="link" href="">Read the rest</a></p>
+                                    <p><?php echo $objBlogs[$blog_c]->$meta_description_blog ?> ...<a class="link" href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objBlogs[$blog_c]->$blog_hash, blogTableClass::getNameField("post", true) => $objBlogs[$blog_c]->$page_url_blog)) ?>">Read the rest</a></p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                             <div class="row">
                                 <div class="mlarge-4 columns"><img src="<?php echo routing::getInstance()->getUrlImg("homepage/blog-content4.jpg") ?>"></div>
                                 <div class="mlarge-8 columns">
-                                    <p><?php echo $objBlogs[$blog_c]->$meta_description_blog ?> ...<a class="link" href="">Read the rest</a></p>
+                                    <p><?php echo $objBlogs[$blog_c]->$meta_description_blog ?> ...<a class="link" href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objBlogs[$blog_c]->$blog_hash, blogTableClass::getNameField("post", true) => $objBlogs[$blog_c]->$page_url_blog)) ?>">Read the rest</a></p>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                         <div class="small-6 mlarge-10 columns align-self-middle">
                             <h3 class="desktop"><?php echo $objBlogs[$blog_c]->$title_blog ?></h3>
                             <h6 class="desktop">Bohemia Blog by <?php echo profileTableClass::getProfileByUserId($objBlogs[$blog_c]->$usuario_id); ?> Posted on  <?php echo date("d F Y ", strtotime($objBlogs[$blog_c]->$created_at)); ?></h6>
-                            <p><?php echo $objBlogs[$blog_c]->$meta_description_blog ?>...</span><a class="link" href="">Read the rest</a></p>
+                            <p><?php echo $objBlogs[$blog_c]->$meta_description_blog ?>...</span><a class="link" href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objBlogs[$blog_c]->$blog_hash, blogTableClass::getNameField("post", true) => $objBlogs[$blog_c]->$page_url_blog)) ?>">Read the rest</a></p>
                         </div>
                     </div>
                     <?php
@@ -123,7 +123,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                         <div class="small-push-6 mlarge-10 columns align-self-middle">
                             <h3 class="desktop"><?php echo $objBlogs[$blog_c]->$title_blog ?></h3>
                             <h6 class="desktop">Bohemia Blog by Agent <?php echo profileTableClass::getProfileByUserId($objBlogs[$blog_c]->$usuario_id); ?> Posted on <?php echo date("d F Y ", strtotime($objBlogs[$blog_c]->$created_at)); ?></h6>
-                            <p> <?php echo $objBlogs[$blog_c]->$meta_description_blog ?>...</span><a class="link" href="">Read the rest</a></p>
+                            <p> <?php echo $objBlogs[$blog_c]->$meta_description_blog ?>...</span><a class="link" href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objBlogs[$blog_c]->$blog_hash, blogTableClass::getNameField("post", true) => $objBlogs[$blog_c]->$page_url_blog)) ?>">Read the rest</a></p>
                         </div>
                         <div class="small-pull-6 mlarge-2 columns"><img src="<?php echo routing::getInstance()->getUrlImg("homepage/blog-content5.jpg") ?>"></div>
                     </div>
@@ -153,7 +153,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                         }
                         ?>
                         <li>
-                            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'index') ?>"> <?php echo $objRecentBlogs[$recent]->$title_blog; ?> </a>
+                            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objRecentBlogs[$recent]->$blog_hash, blogTableClass::getNameField("post", true) => $objRecentBlogs[$recent]->$page_url_blog)) ?>"> <?php echo $objRecentBlogs[$recent]->$title_blog; ?> </a>
                         </li>
                         <?php
                         if ($j == 4) {
@@ -177,7 +177,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                         }
                         ?>
                         <li>
-                            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'index', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objRecentBlogs[$rec]->$blog_hash, blogTableClass::getNameField("post", true) => $objRecentBlogs[$rec]->$page_url_blog)) ?>"> <?php echo $objRecentBlogs[$rec]->$title_blog; ?> </a>
+                            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objRecentBlogs[$rec]->$blog_hash, blogTableClass::getNameField("post", true) => $objRecentBlogs[$rec]->$page_url_blog)) ?>"> <?php echo $objRecentBlogs[$rec]->$title_blog; ?> </a>
                         </li>
 
                         <?php
@@ -236,7 +236,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                                         if ($year == date("Y", strtotime($objArchiveBlogs[$archive]->$created_at))) {
                                             ?>
                                             <li>
-                                                <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'index') ?>"> <?php echo $objArchiveBlogs[$archive]->$title_blog; ?> </a><br>
+                                                <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objArchiveBlogs[$archive]->$blog_hash, blogTableClass::getNameField("post", true) => $objArchiveBlogs[$archive]->$page_url_blog)) ?>"> <?php echo $objArchiveBlogs[$archive]->$title_blog; ?> </a><br>
                                                 <time><?php echo date("d F Y ", strtotime($objArchiveBlogs[$archive]->$created_at)); ?></time>
                                             </li>
                                             <?php
@@ -294,7 +294,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                                         if ($year == date("Y", strtotime($objArchiveBlogs[$archive]->$created_at))) {
                                             ?>
                                             <li>
-                                                <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'index') ?>"> <?php echo $objArchiveBlogs[$archive]->$title_blog; ?> </a><br>
+                                                <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objArchiveBlogs[$archive]->$blog_hash, blogTableClass::getNameField("post", true) => $objArchiveBlogs[$archive]->$page_url_blog)) ?>"> <?php echo $objArchiveBlogs[$archive]->$title_blog; ?> </a><br>
                                                 <time><?php echo date("d F Y ", strtotime($objArchiveBlogs[$archive]->$created_at)); ?></time>
                                             </li>
                                             <?php

@@ -16,6 +16,7 @@ class blogGroupBaseTableClass extends tableBaseClass {
   const BLOG_ID_BLOG = 'blog_id_blog';
   const BLOG_HASH = 'blog_hash';
   const BLOG_HASH_LENTH = 32;
+  const BLOG_GROUP_THUMBNAIL_PATH = 'blog_group_thumbnail_path';
   const CREATED_AT = 'created_at';
   const UPDATED_AT = 'updated_at';
   const DELETED_AT = 'deleted_at';

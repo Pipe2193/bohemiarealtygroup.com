@@ -15,151 +15,152 @@ config::setRemoteAccess('off');
 
 if (config::getScope() == 'dev') {
 
-  config::setDbHost('localhost');
-  config::setDbDriver('mysql'); // pgsql mysql
-  config::setDbName('brgny_bohemia_group');
-  config::setDbPort(3306); // 5432 3306
-  config::setDbUser('root');
-  config::setDbPassword('');
+    config::setDbHost('localhost');
+    config::setDbDriver('mysql'); // pgsql mysql
+    config::setDbName('brgny_bohemia_group');
+    config::setDbPort(3306); // 5432 3306
+    config::setDbUser('root');
+    config::setDbPassword('');
 // Esto solo es necesario en caso de necesitar un socket para la DB
-  config::setDbUnixSocket(null); ///tmp/mysql.sock
+    config::setDbUnixSocket(null); ///tmp/mysql.sock
 
-  if (config::getDbUnixSocket() !== null) {
-    config::setDbDsn(
-            config::getDbDriver()
-            . ':unix_socket=' . config::getDbUnixSocket()
-            . ';dbname=' . config::getDbName()
-    );
-  } else {
-    config::setDbDsn(
-            config::getDbDriver()
-            . ':host=' . config::getDbHost()
-            . ';port=' . config::getDbPort()
-            . ';dbname=' . config::getDbName()
-            . ';charset=utf8;'
-    );
-  }
+    if (config::getDbUnixSocket() !== null) {
+        config::setDbDsn(
+                config::getDbDriver()
+                . ':unix_socket=' . config::getDbUnixSocket()
+                . ';dbname=' . config::getDbName()
+        );
+    } else {
+        config::setDbDsn(
+                config::getDbDriver()
+                . ':host=' . config::getDbHost()
+                . ';port=' . config::getDbPort()
+                . ';dbname=' . config::getDbName()
+                . ';charset=utf8;'
+        );
+    }
 
 
-  //bohemia db
-  config::setBohemiaDbHost('67.225.229.143'); //10.195.64.110
-  config::setBohemiaDbDriver('mysql'); // pgsql mysql
-  config::setBohemiaDbName('intranet_bohemia');
-  config::setBohemiaDbPort(3306); // 5432 3306
-  config::setBohemiaDbUser('intranet');
-  config::setBohemiaDbPassword('[>=5-njb2|1#%$M');
+    //bohemia db
+    config::setBohemiaDbHost('67.225.229.143'); //10.195.64.110
+    config::setBohemiaDbDriver('mysql'); // pgsql mysql
+    config::setBohemiaDbName('intranet_bohemia');
+    config::setBohemiaDbPort(3306); // 5432 3306
+    config::setBohemiaDbUser('intranet');
+    config::setBohemiaDbPassword('[>=5-njb2|1#%$M');
 // Esto solo es necesario en caso de necesitar un socket para la DB
-  config::setBohemiaDbUnixSocket(null); ///tmp/mysql.sock
+    config::setBohemiaDbUnixSocket(null); ///tmp/mysql.sock
 
-  if (config::getBohemiaDbUnixSocket() !== null) {
-    config::setBohemiaDbDsn(
-            config::getBohemiaDbDriver()
-            . ':unix_socket=' . config::getBohemiaDbUnixSocket()
-            . ';dbname=' . config::getBohemiaDbName()
-    );
-  } else {
-    config::setBohemiaDbDsn(
-            config::getBohemiaDbDriver()
-            . ':host=' . config::getBohemiaDbHost()
-            . ';port=' . config::getBohemiaDbPort()
-            . ';dbname=' . config::getBohemiaDbName()
-            . ';charset=utf8;'
-    );
-  }
+    if (config::getBohemiaDbUnixSocket() !== null) {
+        config::setBohemiaDbDsn(
+                config::getBohemiaDbDriver()
+                . ':unix_socket=' . config::getBohemiaDbUnixSocket()
+                . ';dbname=' . config::getBohemiaDbName()
+        );
+    } else {
+        config::setBohemiaDbDsn(
+                config::getBohemiaDbDriver()
+                . ':host=' . config::getBohemiaDbHost()
+                . ';port=' . config::getBohemiaDbPort()
+                . ';dbname=' . config::getBohemiaDbName()
+                . ';charset=utf8;'
+        );
+    }
 
-  if (config::getRemoteAccess() == 'on') {
-    $remote_address = $_SERVER['SERVER_ADDR'];
-    config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup.com/');
-    config::setUrlBase('http://' . $remote_address . '/bohemiarealtygroup.com/web/');
-  } elseif (config::getRemoteAccess() == 'off') {
-    config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup.com/');
-    config::setUrlBase('http://localhost/bohemiarealtygroup.com/web/');
-  }
+    if (config::getRemoteAccess() == 'on') {
+        $remote_address = $_SERVER['SERVER_ADDR'];
+        config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup.com/');
+        config::setUrlBase('http://' . $remote_address . '/bohemiarealtygroup.com/web/');
+    } elseif (config::getRemoteAccess() == 'off') {
+        config::setPathAbsolute('/opt/lampp/htdocs/bohemiarealtygroup.com/');
+        config::setUrlBase('http://localhost/bohemiarealtygroup.com/web/');
+    }
 } elseif (config::getScope() == 'prod') {
 
-  //local db
-  config::setDbHost('localhost'); //10.195.64.110
-  config::setDbDriver('mysql'); // pgsql mysql
-  config::setDbName('brgny_bohemia_group');
-  config::setDbPort(3306); // 5432 3306
-  config::setDbUser('brgny_bohemia');
-  config::setDbPassword('b0hem1a2017');
+    //local db
+    config::setDbHost('localhost'); //10.195.64.110
+    config::setDbDriver('mysql'); // pgsql mysql
+    config::setDbName('brgny_bohemia_group');
+    config::setDbPort(3306); // 5432 3306
+    config::setDbUser('brgny_bohemia');
+    config::setDbPassword('b0hem1a2017');
 // Esto solo es necesario en caso de necesitar un socket para la DB
-  config::setDbUnixSocket(null); ///tmp/mysql.sock
+    config::setDbUnixSocket(null); ///tmp/mysql.sock
 
-  if (config::getDbUnixSocket() !== null) {
-    config::setDbDsn(
-            config::getDbDriver()
-            . ':unix_socket=' . config::getDbUnixSocket()
-            . ';dbname=' . config::getDbName()
-    );
-  } else {
-    config::setDbDsn(
-            config::getDbDriver()
-            . ':host=' . config::getDbHost()
-            . ';port=' . config::getDbPort()
-            . ';dbname=' . config::getDbName()
-    );
-  }
+    if (config::getDbUnixSocket() !== null) {
+        config::setDbDsn(
+                config::getDbDriver()
+                . ':unix_socket=' . config::getDbUnixSocket()
+                . ';dbname=' . config::getDbName()
+        );
+    } else {
+        config::setDbDsn(
+                config::getDbDriver()
+                . ':host=' . config::getDbHost()
+                . ';port=' . config::getDbPort()
+                . ';dbname=' . config::getDbName()
+                . ';charset=utf8;'
+        );
+    }
 
-  //bohemia db
-  config::setBohemiaDbHost('67.225.229.143'); //10.195.64.110
-  config::setBohemiaDbDriver('mysql'); // pgsql mysql
-  config::setBohemiaDbName('intranet_bohemia');
-  config::setBohemiaDbPort(3306); // 5432 3306
-  config::setBohemiaDbUser('intranet');
-  config::setBohemiaDbPassword('[>=5-njb2|1#%$M');
+    //bohemia db
+    config::setBohemiaDbHost('67.225.229.143'); //10.195.64.110
+    config::setBohemiaDbDriver('mysql'); // pgsql mysql
+    config::setBohemiaDbName('intranet_bohemia');
+    config::setBohemiaDbPort(3306); // 5432 3306
+    config::setBohemiaDbUser('intranet');
+    config::setBohemiaDbPassword('[>=5-njb2|1#%$M');
 // Esto solo es necesario en caso de necesitar un socket para la DB
-  config::setBohemiaDbUnixSocket(null); ///tmp/mysql.sock
+    config::setBohemiaDbUnixSocket(null); ///tmp/mysql.sock
 
-  if (config::getBohemiaDbUnixSocket() !== null) {
-    config::setBohemiaDbDsn(
-            config::getBohemiaDbDriver()
-            . ':unix_socket=' . config::getBohemiaDbUnixSocket()
-            . ';dbname=' . config::getBohemiaDbName()
-    );
-  } else {
-    config::setBohemiaDbDsn(
-            config::getBohemiaDbDriver()
-            . ':host=' . config::getBohemiaDbHost()
-            . ';port=' . config::getBohemiaDbPort()
-            . ';dbname=' . config::getBohemiaDbName()
-    );
-  }
+    if (config::getBohemiaDbUnixSocket() !== null) {
+        config::setBohemiaDbDsn(
+                config::getBohemiaDbDriver()
+                . ':unix_socket=' . config::getBohemiaDbUnixSocket()
+                . ';dbname=' . config::getBohemiaDbName()
+        );
+    } else {
+        config::setBohemiaDbDsn(
+                config::getBohemiaDbDriver()
+                . ':host=' . config::getBohemiaDbHost()
+                . ';port=' . config::getBohemiaDbPort()
+                . ';dbname=' . config::getBohemiaDbName()
+        );
+    }
 
-  config::setPathAbsolute('/home/brgny/public_html/dev/');
-  config::setUrlBase('https://dev.brg-ny.com/web/');
+    config::setPathAbsolute('/home/brgny/public_html/dev/');
+    config::setUrlBase('https://dev.brg-ny.com/web/');
 } elseif (config::getScope() == 'test') {
 
-  config::setDbHost('166.62');
-  config::setDbDriver('mysql'); // pgsql mysql
-  config::setDbName('mptechno_bohemia_group');
-  config::setDbPort(3306); // 5432
-  config::setDbUser('mptechno_bohemia');
-  config::setDbPassword('b0hem1a2017');
+    config::setDbHost('166.62');
+    config::setDbDriver('mysql'); // pgsql mysql
+    config::setDbName('mptechno_bohemia_group');
+    config::setDbPort(3306); // 5432
+    config::setDbUser('mptechno_bohemia');
+    config::setDbPassword('b0hem1a2017');
 // Esto solo es necesario en caso de necesitar un socket para la DB
-  config::setDbUnixSocket(null); ///tmp/mysql.sock
+    config::setDbUnixSocket(null); ///tmp/mysql.sock
 
-  if (config::getDbUnixSocket() !== null) {
-    config::setDbDsn(
-            config::getDbDriver()
-            . ':unix_socket=' . config::getDbUnixSocket()
-            . ';dbname=' . config::getDbName()
-    );
-  } else {
-    config::setDbDsn(
-            config::getDbDriver()
-            . ':host=' . config::getDbHost()
-            . ';port=' . config::getDbPort()
-            . ';dbname=' . config::getDbName()
-    );
-  }
+    if (config::getDbUnixSocket() !== null) {
+        config::setDbDsn(
+                config::getDbDriver()
+                . ':unix_socket=' . config::getDbUnixSocket()
+                . ';dbname=' . config::getDbName()
+        );
+    } else {
+        config::setDbDsn(
+                config::getDbDriver()
+                . ':host=' . config::getDbHost()
+                . ';port=' . config::getDbPort()
+                . ';dbname=' . config::getDbName()
+        );
+    }
 }
 
 if (session::getInstance()->hasDefaultCulture() === false) {
-  config::setDefaultCulture('en');
+    config::setDefaultCulture('en');
 } else {
-  config::setDefaultCulture(session::getInstance()->getDefaultCulture());
+    config::setDefaultCulture(session::getInstance()->getDefaultCulture());
 }
 
 config::setIndexFile('index.php');

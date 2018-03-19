@@ -44,7 +44,6 @@ class syncActionClass extends controllerClass implements controllerActionInterfa
 
                 $page_title_blog = $ll_blogs->$_title;
                 $page_url_blog = preg_replace('/\s+/', '-', $ll_blogs->$_title);
-                ;
                 $meta_description_blog = $ll_blogs->$_meta;
                 $title_blog = $ll_blogs->$_title;
                 $blog_status = 1;
@@ -52,9 +51,8 @@ class syncActionClass extends controllerClass implements controllerActionInterfa
                 $blog_content = $ll_blogs->$_content;
                 $id = $ll_blogs->$_id;
                 $thumbnail_path = $ll_blogs->$_thumbnail;
-                ;
 //                $blog = request::getInstance()->getPost("blog");
-                $blog_hash = md5(md5(date('U')));
+                $blog_hash = md5(md5(date('U') . $id));
                 $usuario_id = session::getInstance()->getUserId();
                 $created_at = $ll_blogs->$_created;
 //                for ($i = 0; $i <= count($blog); $i++) {

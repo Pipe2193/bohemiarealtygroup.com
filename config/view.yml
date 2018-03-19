@@ -339,6 +339,28 @@ blog:
         - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
         - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js 
         
+  post:
+    title: Post | Bohemia Realty Group
+    stylesheet:
+        - css/homepage/app.css
+        - css/shfDeveloperBar.css
+        - vendors/pace/css/pace.css
+# *************************** homepage/index libraries *************************************   
+    stylesheet_library:
+        - https://fonts.googleapis.com/css?family=Raleway:200,500,700|Roboto:400,500,700|Yantramanav:400,700
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.2/css/foundation.min.css
+    javascript:
+        - js/homepage/jquery.rwdImageMaps.min.js
+        - js/homepage/app.js
+# *************************** homepage/index libraries *************************************
+        - js/main.js
+        - js/app.js
+        - vendors/pace/js/pace.js
+    javascript_library:
+        - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js      
+        
 make-a-payment:   
   index:
     title: Make a Payment | Bohemia Realty Group
