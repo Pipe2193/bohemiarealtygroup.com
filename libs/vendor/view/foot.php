@@ -3,7 +3,7 @@
 use mvc\session\sessionClass as session;
 use mvc\config\configClass as config;
 ?>
-<?php if (\mvc\config\configClass::getScope() === 'dev' || \mvc\config\configClass::getScope() === 'testing'): ?>
+<?php if (\mvc\config\configClass::getScope() === 'dev' || \mvc\config\configClass::getScope() === 'dev'): ?>
   <div id="mvcMain" class="shfDevelopmentBar">
       <i class="fa fa-leaf mvcPointer"></i> <?php echo config::getSohoFrameworkAccronName() ?> <?php echo config::getSohoFrameworkVersion() ?> |
       <i class="fa fa-dashboard"></i> <?php echo number_format((memory_get_usage() / 1048576), '3', '.', '\'') ?> MB |
@@ -17,7 +17,7 @@ use mvc\config\configClass as config;
       <?php endif ?>
   </div>
 <?php endif; ?>
-<?php if (\mvc\config\configClass::getScope() === 'dev' || \mvc\config\configClass::getScope() === 'testing'): ?>
+<?php if (\mvc\config\configClass::getScope() === 'dev' || \mvc\config\configClass::getScope() === 'dev'): ?>
   <div id="mvcIcon" class="shfDevelopmentBar">
       <i class="fa fa-leaf mvcPointer"></i> <?php echo config::getSohoFrameworkAccronName(); ?> <?php echo config::getSohoFrameworkVersion(); ?>
   </div>

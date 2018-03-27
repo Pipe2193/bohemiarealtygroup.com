@@ -205,239 +205,14 @@ use mvc\session\sessionClass as session;
                 </div><!-- orbit-wrapper grid-container -->
             </div><!-- orbit desktop -->
         </div><!-- column row -->
-        <div class="small-10 small-offset-1 end columns row">
-            <h3>Open Houses</h3>
-        </div>
-        <div class="column row">
-            <div aria-label="Open Houses" id="open-houses" class="orbit desktop" data-auto-play="false" data-orbit="" role="region">
-                <div class="orbit-wrapper three-slides grid-container">
-                    <div class="row">
-                        <div class="orbit-controls small-1 columns">
-                            <button class="orbit-previous button"><span class="show-for-sr">Previous Slide</span>&lsaquo;</button>
-                        </div>
-                        <div class="small-10 columns">
-                            <ul class="orbit-container" data-orbit data-options="animation_speed:1000;">
-                                <li class="is-active orbit-slide">
-                                    <div class="grid-container">
-                                        <div class="row" data-equalizer data-equalize-on="small">
-                                            <div class="property small-4 columns" data-equalizer-watch>
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4 >1 BED |<br> 1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns" data-equalizer-watch>
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties2.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED |<br> 2 BATH
-                                                            $4,500</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>MONDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Harlem</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns" data-equalizer-watch>
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br> 1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="orbit-slide">
-                                    <div class="grid-container">
-                                        <div class="row">
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br> 1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties2.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED | <br> 2 BATH
-                                                            $4,500</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>MONDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Harlem</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br> 1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="orbit-slide">
-                                    <div class="grid-container">
-                                        <div class="row">
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br>1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties2.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED |<br> 2 BATH
-                                                            $4,500</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>MONDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Harlem</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br>1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="orbit-slide">
-                                    <div class="grid-container">
-                                        <div class="row">
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties2.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br>1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties2.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>3 BED | <br>2 BATH
-                                                            $4,500</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>MONDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Harlem</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="property small-4 columns">
-                                                <div class="property-img row">
-                                                    <div class="small-12 columns"><img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>"></div>
-                                                </div>
-                                                <div class="property-info row">
-                                                    <div class="small-6 columns align-self-middle">
-                                                        <h4>1 BED | <br> 1 BATH
-                                                            $5,000</h4>
-                                                    </div>
-                                                    <div class="split small-6 columns align-self-middle">
-                                                        <h5>WEDNESDAY, 03/22 6:00 pm to 7:00 pm</h5>
-                                                        <p>Hamilton Heights</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="orbit-controls small-1 columns">
-                            <button class="orbit-next button"><span class="show-for-sr">Next Slide</span>&rsaquo;</button>
-                        </div>
-                    </div><!-- row -->
-                    <div class="column row">
-                        <nav class="orbit-bullets">
-                            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button> <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button> <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button> <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button><button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
-                        </nav>
-                    </div><!-- row -->
-                </div><!-- orbit-wrapper grid-container -->
-            </div><!-- orbit desktop -->
-        </div><!-- column row -->
-    </div>
+
+
+        <!--REMOVED OPEN HOUSES---------
+
+
     <!-- end desktop -->
     <!-- begin mobile -->
+    </div>
     <div class="hero mobile cell">
         <div class="cell">
             <img alt="Bohemia Realty Group" src="<?php echo routing::getInstance()->getUrlImg("homepage/Landing/2.jpg"); ?>" title="Bohemia Realty Group"><a class="button" href="">Looking to Rent</a>
@@ -496,40 +271,6 @@ use mvc\session\sessionClass as session;
                             </div>
                         </div>
                     </li>
-                </ul>
-            </div>
-        </div>
-        <div class="cell mobile">
-            <div class="orbit-controls mobile">
-                <button class="orbit-previous button"><span class="show-for-sr">Previous Slide</span>&lt;</button> <button class="orbit-next button"><span class="show-for-sr">Next Slide</span>&gt;</button>
-            </div>
-        </div>
-    </div>
-    <div aria-label="Open Houses" id="open-houses" class="orbit mobile" data-auto-play="false" data-orbit="" role="region">
-        <div class="orbit-wrapper grid-container">
-            <div class="column row">
-                <hr>
-                <h3>Open Houses</h3>
-                <ul class="orbit-container">
-                    <li class="is-active orbit-slide">
-                        <div class="grid-container">
-                            <div class="property-img row">
-                                <div class="small-12 columns">
-                                    <img alt="Properties" class="orbit-image" src="<?php echo routing::getInstance()->getUrlImg("homepage/properties1.jpg"); ?>">
-                                </div>
-                            </div>
-                            <div class="property-info row">
-                                <div class="split small-6 columns align-self-middle">
-                                    <h4>3 BED | 2 BATH<br>
-                                        $1,199,000</h4>
-                                </div>
-                                <div class="small-6 columns align-self-middle">
-                                    <h5>The Leo 427 West 154th Street Unit 1</h5>
-                                    <p>Hamilton Heights</p>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
                     <li class="orbit-slide">
                         <div class="grid-container">
                             <div class="property-img row">
@@ -555,9 +296,10 @@ use mvc\session\sessionClass as session;
         <div class="cell mobile">
             <div class="orbit-controls mobile">
                 <button class="orbit-previous button"><span class="show-for-sr">Previous Slide</span>&lt;</button> <button class="orbit-next button"><span class="show-for-sr">Next Slide</span>&gt;</button>
-            </div><br class="desktop"><br class="desktop">
+            </div>
         </div>
     </div>
+
     <!-- end mobile -->
     <div class="grid-container">
         <div class="columns row">
@@ -565,7 +307,7 @@ use mvc\session\sessionClass as session;
             <h3 class="grid-container">We have the largest portfolio of exclusive properties in Upper Manhattan</h3>
         </div>
         <div class="row">
-            <div class="columns small-12 mlarge-offset-1 mlarge-10 end">Bohemia Realty Group is a dynamic team of dedicated real estate professionals that focus on residential rentals and sales in Upper Manhattan. Our agents are neighborhood specialists; over 90% of Bohemia agents call uptown home, and can provide first-hand knowledge about the lifestyle at the top of the island. Our mission is a three pronged approach to improving quality of life: to service clients in an efficient, friendly way; to create a positive work environment for our agents and employees; and to enrich the community above 96th Street.
+            <div class="columns small-12 mlarge-offset-1 mlarge-10 end">Bohemia Realty Group is a dynamic team of dedicated real estate professionals that focus on residential sales and rentals in Upper Manhattan. Our agents are neighborhood specialists; over 90% of Bohemia agents call uptown home, and can provide first-hand knowledge about the lifestyle at the top of the island. Our mission is a three pronged approach to improving quality of life: to service clients in an efficient, friendly way; to create a positive work environment for our agents and employees; and to enrich the community above 96th Street.
             </div>
         </div>
     </div><!-- grid-container -->

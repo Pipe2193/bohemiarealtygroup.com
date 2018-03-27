@@ -354,4 +354,19 @@ splits:
     security: true
   ajax:
     security: true    
+  
+dunbar:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+      
+  contacts:
+    security: true
+    credentials:
+      - [root, superuser, admin]    
+  create:
+    security: true
+  ajax:
+    security: true    
     

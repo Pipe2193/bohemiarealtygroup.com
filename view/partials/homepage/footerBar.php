@@ -9,7 +9,7 @@ use mvc\session\sessionClass as session;
     <div class="grid-container">
         <div class="column row">
             <nav>
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav" style="width: 110%">
                     <li><a href="<?php echo \mvc\config\configClass::getUrlBase(), \mvc\config\configClass::getIndexFile(); ?>">Home</a></li>
                     <li><a href="<?php echo routing::getInstance()->getUrlWeb("our-properties", "sales") ?>">Homes For Sale</a></li>
                     <li><a href="<?php echo routing::getInstance()->getUrlWeb("our-properties", "rentals") ?>">Homes For Rent</a></li>
@@ -23,7 +23,7 @@ use mvc\session\sessionClass as session;
             </nav>
         </div>
         <div class="row">
-            <div class="small-12 mlarge-3 columns">
+            <div class="small-12 mlarge-4 columns">
                 <a href="/" class="footer-logo"><img src="<?php echo routing::getInstance()->getUrlImg("homepage/bohemia_logo_white.svg"); ?>"></a>
                 <p class="footer-social-media">
 
@@ -34,7 +34,7 @@ use mvc\session\sessionClass as session;
 
                 </p>
             </div>
-            <div class="small-12 mlarge-7 columns">
+            <div class="small-12 mlarge-6 columns">
                 <address><b>Bohemia Harlem</b> - 2101 Frederick Douglass Blvd., New York, NY 10026 | Phone: <a href="tel:212.663.6215">212.663.6215</a></address>
                 <address><b>Bohemia Washington Heights</b> - 3880 Broadway, New York, NY 10032 | Phone: <a href="tel:646.661.1579">646.661.1579</a></address>
                 <p>Email: <a href="mailto:info@bohemiarealtygroup.com">info@bohemiarealtygroup.com</a> Fax: 866.598.1059.</p>
@@ -43,7 +43,7 @@ use mvc\session\sessionClass as session;
             </div>
             <div id="payment" class="small-12 mlarge-2 columns desktop">
                 <p><img src="<?php echo routing::getInstance()->getUrlImg("homepage/rebnylogowhite.png"); ?>"></p>
-                <p><a href="<?php echo routing::getInstance()->getUrlWeb("make-a-payment", "index") ?>">Make a Payment</a></p>
+                <p><a class="payment " href="<?php echo routing::getInstance()->getUrlWeb("make-a-payment", "index") ?>">Make a Payment</a></p>
             </div>
         </div>
     </div>

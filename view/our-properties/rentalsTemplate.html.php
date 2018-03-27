@@ -7,7 +7,7 @@ use mvc\session\sessionClass as session;
 /** LISTING SIZE INSTANCES* */
 $listing_size_id = listingSizeTableClass::ID;
 $listing_size_description = listingSizeTableClass::DESCRIPTION_LISTING_SIZE;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div id="rentals" class="properties">
     <div class="hero cell">
@@ -20,68 +20,73 @@ $listing_size_description = listingSizeTableClass::DESCRIPTION_LISTING_SIZE;
     <div id="search" class="cell">
         <form data-abide="" novalidate="">
             <div class="grid-container">
-                <div class="first row">
-                    <div class="small-12 mlarge-5 columns" id="keywords">
+                <div class="first row" style="margin-left: 15px;">
+                    <div class="small-12 mlarge-4 columns" id="keywords" style="padding: 0;">
                         <div class="row">
-                            <div class="small-10 medium-2 mlarge-3 input-group columns">
+                            <div class="small-10 medium-2 mlarge-3 input-group columns" style="padding-right: 1px !important;">
                                 <label class="input-group-label" for="keywords">keywords</label>
                             </div>
-                            <div class="small-12 medium-9 mlarge-10 input-group columns">
+                            <div class="small-12 medium-9 mlarge-7 input-group columns" style="padding-left: 1px !important; margin-left: 2px;">
                                 <input aria-describedby="keywords" class="input-group-field" id="keywords" type="text"> <button class="input-group-button clear">x</button>
                             </div>
                         </div>
                     </div>
-                    <div class="small-12 mlarge-5 columns" id="price">
+                    <div class="small-12 mlarge-4 columns" id="price">
                         <div class="row">
-                            <div class="small-10 medium-2 mlarge-10 input-group columns">
+                            <div class="small-10 medium-2 mlarge-3 input-group columns" style="padding-left: 0;">
                                 <label class="input-group-label" for="price-from">price range</label>
                             </div>
-                            <div class="small-12 medium-4 mlarge-5 input-group columns">
-                                <input aria-describedby="priceFrom" class="input-group-field" id="price-from" pattern="number" type="text"><button class="input-group-button clear">x</button> 
+                            <div class="small-12 medium-4 mlarge-4 input-group columns" style="padding-right: 2px !important;">
+                                <input aria-describedby="priceFrom" class="input-group-field" id="price-from" pattern="number" type="text"><button class="input-group-button clear">x</button>
                             </div>
-                            <div class="small-12 medium-1 mlarge-2 input-group columns">
-                                <label class="input-group-label" for="price-to">to</label> 
+                            <div class="small-12 medium-1 mlarge-0 input-group columns" style="padding-left: 6px;">
+                                <label class="input-group-label" for="price-to">to</label>
                             </div>
-                            <div class="small-12 medium-4 mlarge-5 input-group columns">
+                            <div class="small-12 medium-4 mlarge-4 input-group columns" style="padding-left: 2px !important;">
                                 <input aria-describedby="priceTo" class="input-group-field" id="price-to" pattern="number" type="text"> <button class="input-group-button clear">x</button>
                             </div>
                         </div>
                     </div>
-                    <div class="small-12 mlarge-12 columns" id="beds">
+                    <div class="small-12 mlarge-4 columns" id="beds">
                         <div class="row">
-                            <div class="small-10 medium-2 mlarge-1 columns beds">
-                                <label for="beds-from">beds</label>
+                            <div class="small-1 medium-0 mlarge-0 columns beds" style="padding: 0; margin-right: 10px;">
+                                <label for="beds-from" style="margin-top: 5px;">beds</label>
                             </div>
-                            <div class=" small-12 medium-4 mlarge-4 columns beds">
-                                <select id="" name="" class="form-control" >
+                            <div class=" small-12 medium-2 mlarge-4 columns beds" style="padding: 3px;">
+                                <select id="" name="" class="form-control" style="width: 100%; margin-top: -3px;">
                                     <option value="">Select Size </option>
-                                    <option value=""> Any </option>  
-                                    <?php
-                                    foreach ($objListingSize as $size):
-                                      if ($size->$listing_size_id != 12) {
-                                        ?>
-                                        <option value="<?php echo $size->$listing_size_id; ?>"><?php echo $size->$listing_size_description; ?></option>
-                                      <?php }
-                                    endforeach;
-                                    ?>
-                                </select>
+                                    <option value=""> Any </option>
+                                    <option value="1">Studio</option>
+                                    <option value="2">Junior 1BR</option>
+                                    <option value="3">1BR</option>
+                                    <option value="4">Convert 2BR</option>
+                                    <option value="5">2BR</option>
+                                    <option value="6">Convert 3BR</option>
+                                    <option value="7">Convert 4BR</option>
+                                    <option value="8">4BR</option>
+                                    <option value="9">5 Plus</option>
+                                    <option value="10">Loft</option>
+                                    <option value="11">3BR</option>
+                                  </select>
                             </div>
-                            <div class="small-10  medium-1 mlarge-1 columns">
-                                <label for="beds-to">to</label>
+                            <div class="small-1  medium-1 mlarge-0 columns" style="padding: 0;">
+                                <label for="beds-to" style="width: 10px; margin-top: 5px; padding-left: 4px;">to</label>
                             </div>
-                            <div class="small-12  medium-4 mlarge-4 columns">
-                                <select id="" name="" class="form-control" >
-                                    <option value="">Select Size </option>  
-                                    <option value=""> Any </option>  
-                                    <?php
-                                    foreach ($objListingSize as $size):
-                                      if ($size->$listing_size_id != 12) {
-                                        ?>
-                                        <option value="<?php echo $size->$listing_size_id; ?>"><?php echo $size->$listing_size_description; ?></option>
-                                        <?php
-                                      }
-                                    endforeach;
-                                    ?>
+                            <div class="small-12  medium-2 mlarge-4 columns" style="padding:  0;">
+                                <select id="" name="" class="form-control" style="width: 100%;">
+                                    <option value="">Select Size </option>
+                                    <option value=""> Any </option>
+                                    <option value="1">Studio</option>
+                                    <option value="2">Junior 1BR</option>
+                                    <option value="3">1BR</option>
+                                    <option value="4">Convert 2BR</option>
+                                    <option value="5">2BR</option>
+                                    <option value="6">Convert 3BR</option>
+                                    <option value="7">Convert 4BR</option>
+                                    <option value="8">4BR</option>
+                                    <option value="9">5 Plus</option>
+                                    <option value="10">Loft</option>
+                                    <option value="11">3BR</option>
                                 </select>
                             </div>
                         </div>
@@ -89,7 +94,7 @@ $listing_size_description = listingSizeTableClass::DESCRIPTION_LISTING_SIZE;
                 </div>
                 <div id="more" data-toggler data-animate="fade-in fade-out">
                     <div class="second row">
-                        <div class="small-12 mlarge-3 columns">
+                        <div class="small-12 mlarge-2 columns">
                             <button class="search-dropdown" data-toggle="neighborhoods" type="button">neighborhoods<i aria-hidden="true" class="fa fa-chevron-down"></i></button>
                             <div class="dropdown-pane" data-auto-focus="true" data-dropdown="" id="neighborhoods">
                                 <div class="first row">
@@ -216,10 +221,10 @@ $listing_size_description = listingSizeTableClass::DESCRIPTION_LISTING_SIZE;
                                 </form>
                             </div>
                         </div>
-                        <div class="small-12 mlarge-3 columns">
-                            <select id="" name="" class="form-control" >
-                                <option value="">Select Building Type</option>
-                                <option value="">Any</option>  
+                        <!-- <div class="small-12 mlarge-3 columns">
+                            <select id="" name="" class="form-control" style="background-color: #505050; color: white; font-family: Roboto, sans-serif; font-weight: bold; text-transform: uppercase;" >
+                                <option value="">Building Type<i aria-hidden="true" class="fa fa-chevron-down"></i></option>
+                                <option value="">Any</option>
                                 <?php
                                 foreach ($objBuildingType as $buildingType):
                                   if ($buildingType->id_building_type != 6) {
@@ -229,9 +234,22 @@ $listing_size_description = listingSizeTableClass::DESCRIPTION_LISTING_SIZE;
   }
 endforeach;
 ?>
-                            </select>
-
-                        </div>
+                            </select> -->
+                            <div class="small-12 mlarge-3 columns">
+                                <button class="search-dropdown" data-toggle="building-type" type="button">BUILDING type<i aria-hidden="true" class="fa fa-chevron-down"></i></button>
+                                <div class="dropdown-pane small" data-auto-focus="true" data-dropdown="" id="building-type">
+                                    <form>
+                                        <ul>
+                                            <li><label>any</label><input type="checkbox"><span class="checkbox"></span></li>
+                                            <li><label>HIGHRISE</label><input type="checkbox"><span class="checkbox"></span></li>
+                                            <li><label>MIDRISE</label><input type="checkbox"><span class="checkbox"></span></li>
+                                            <li><label>LOWRISE</label><input type="checkbox"><span class="checkbox"></span></li>
+                                            <li><label>BROWNSTONE</label><input type="checkbox"><span class="checkbox"></span></li>
+                                            <li><label>LOFT</label><input type="checkbox"><span class="checkbox"></span></li>
+                                        </ul>
+                                    </form>
+                                </div>
+                            </div>
                         <div class="small-12 mlarge-3 columns">
                             <button class="search-dropdown" data-toggle="building-feat" type="button">BUILDING feat<i aria-hidden="true" class="fa fa-chevron-down"></i></button>
                             <div class="dropdown-pane small" data-auto-focus="true" data-dropdown="" id="building-feat">
@@ -257,26 +275,44 @@ endforeach;
                                 </form>
                             </div>
                         </div>
-                        <div class="small-12 mlarge-1 columns">
-                            <select id="" name="" class="form-control" >
-                                <option value="">Select Pets Policy</option>
+                        <div class="small-12 mlarge-1 columns" style="padding: 0;">
+                          <button class="search-dropdown" data-toggle="pets" type="button" style="width: 110px;">PETS<i aria-hidden="true" class="fa fa-chevron-down"></i></button>
+                          <div class="dropdown-pane small" data-auto-focus="true" data-dropdown="" id="pets">
+                              <form>
+                                  <ul>
+                                      <li><label>any</label><input type="checkbox"><span class="checkbox"></span></li>
+                                      <li><label>PETS ALLOWED</label><input type="checkbox"><span class="checkbox"></span></li>
+                                      <li><label>CASE BY CASE</label><input type="checkbox"><span class="checkbox"></span></li>
+                                      <li><label>NO PETS</label><input type="checkbox"><span class="checkbox"></span></li>
+                                      <li><label>NO DOGS</label><input type="checkbox"><span class="checkbox"></span></li>
+                                      <li><label>NO CATS</label><input type="checkbox"><span class="checkbox"></span></li>
+                                      <li><label>NOT SPECIFIED</label><input type="checkbox"><span class="checkbox"></span></li>
+                                  </ul>
+                              </form>
+                          </div>
+                            <!-- <select id="" name="" class="form-control" style="width: 80px; background-color: #505050; color: white; font-family: Roboto, sans-serif; font-weight: bold; text-transform: uppercase;" >
+                                <option value="">Pets</option>
                                 <option value=""> Any</option>
 <?php foreach ($objPetsPolicy as $petspolicy): ?>
                                   <option value="<?php echo $petspolicy->id_pets_case ?>"><?php echo $petspolicy->description_pets_case; ?></option>
 <?php endforeach; ?>
-                            </select>
+                            </select> -->
 
                         </div>
                     </div>
-                    <div class="third row">
-                        <div class="mlarge-3 mlarge-offset-2 columns desktop">
+                    </div>
+                    <div class="third row" style="position: relative;">
+                        <div class="mlarge-3 mlarge-offset-2 columns desktop" style="margin-left: -25px;">
                             <button class="search-dropdown" data-toggle="search-map" type="button">search by map<i aria-hidden="true" class="fa fa-chevron-down"></i></button>
                         </div>
                         <div class="small-5 mlarge-3 columns" id="open-house">
-                            <label>Open House</label><input type="checkbox"><span class="checkbox"></span>
+                            <label style="margin-top: 4px;">Open House</label><input type="checkbox" style="margin-top: 4px;"><span class="checkbox" style="margin-top: 5px;"></span>
                         </div>
                         <div class="small-5 mlarge-3 columns" id="no-fee">
-                            <label>No Fee</label><input type="checkbox"><span class="checkbox"></span>
+                            <label style="margin-top: 4px;">No Fee</label><input type="checkbox" style="margin-top: 4px;"><span class="checkbox" style="margin-top: 5px;"></span>
+                        </div>
+                        <div class="columns row mlarge-3">
+                            <button id="rental-search-button" class="button success " style="color: #fff; padding-top: 6px !important; padding-bottom: 6px !important; position: absolute; width: 20%; right: 45px;" type="submit" > SEARCH </button>
                         </div>
                     </div>
                 </div>
@@ -285,10 +321,10 @@ endforeach;
                 <button data-toggle="more" class="options button white-button"><i class="fa fa-plus" aria-hidden="true"></i>MORE OPTIONS</button>
             </div></br>
             <div class="columns row mlarge-3">
-                <button class="button success " style="color: #fff;" type="submit" > SEARCH </button>
+                <button id="mobile-rental-search-button" class="button success " style="color: #fff;" type="submit" > SEARCH </button>
             </div>
         </form>
-    </div>  
+    </div>
     <div class="orbit" role="region" aria-label="Sales" data-auto-play="false" data-orbit>
         <div class="grid-container orbit-wrapper">
             <ul class="orbit-container">

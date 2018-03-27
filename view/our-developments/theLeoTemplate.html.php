@@ -171,31 +171,5 @@ use mvc\session\sessionClass as session;
             <a href="" class="button signup-success">View Listing</a>
         </div>
     </div>
-    <div class="column row">
-        <h1>Contact The Leo sales team for more information:</h1>
-    </div>
-    <div class="row">
-        <div class="small-12 mlarge-2 columns">
-        </div>
-        <div class="agent small-12 mlarge-4 columns">
-            <img src="<?php echo routing::getInstance()->getUrlImg("homepage/beth-gittleman.jpg") ?>">
-            <h2>Beth Gittleman</h2>
-            <p>Licensed Real Estate Associate Broker</p>
-            <p>Head of Sales</p>
-            <p><a href="tel:646-408-7785">646.408.7785</a></p>
-            <p><a href="mailto:Beth@BohemiaRealtyGroup.com">Beth@BohemiaRealtyGroup.com</a></p>
-        </div>
-        <div class="small-12 mlarge-1 columns">
-        </div>
-        <div class="agent small-12 mlarge-4 columns">
-            <img src="<?php echo routing::getInstance()->getUrlImg("homepage/susan-molloy.jpg") ?>">
-            <h2>Susan Molloy</h2>
-            <p>Licensed Real Estate Salesperson</p>
-            <p><a href="tel:917-592-4927">917.592.4927</a></p>
-            <p><a href="mailto:Susan@BohemiaRealtyGroup.com">Susan@BohemiaRealtyGroup.com</a></p>
-        </div>
-        <div class="small-12 mlarge-1 columns">
-        </div>
-    </div>
 </div>
 <?php echo view::includePartial("partials/homepage/footerBar"); ?>

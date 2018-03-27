@@ -12,6 +12,11 @@ $landlord_group_percentage = landlordGroupTableClass::BOHEMIA_PERCENT;
 $agent_group_id = agentGroupTableClass::ID;
 $agent_group_name = agentGroupTableClass::AGENT_GROUP_NAME;
 $agent_group_default = agentGroupTableClass::DEFAULT_GROUP;
+/** LANDLORD AGENT SPLITS * */
+$landlord_agent_splits_id = landlordAgentSplitsTableClass::ID;
+$landlord_agent_splits_landlord_group_id = landlordAgentSplitsTableClass::LANDLORD_GROUP_ID;
+$landlord_agent_splits_agent_group_id = landlordAgentSplitsTableClass::AGENT_GROUP_ID;
+$landlord_agent_splits_agent_percentage = landlordAgentSplitsTableClass::AGENT_GROUP_PERCENT;
 ?>  
 
 <div class="container body">
@@ -27,7 +32,7 @@ $agent_group_default = agentGroupTableClass::DEFAULT_GROUP;
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <?php if (session::getInstance()->hasError() or session::getInstance()->hasInformation() or session::getInstance()->hasSuccess() or session::getInstance()->hasWarning()): ?>
-                          <?php view::includeHandlerMessage() ?>
+                            <?php view::includeHandlerMessage() ?>
                         <?php endif ?>
                         </br>
                         <div class="x_panel">
@@ -50,6 +55,7 @@ $agent_group_default = agentGroupTableClass::DEFAULT_GROUP;
                                 <div class="tab-content">
                                     <div id="landlord_group" class="tab-pane fade in active">
                                         </br>
+
                                         <div class="panel panel-success">
                                             <div class="panel-body">
                                                 <div class="pull-left">
@@ -57,53 +63,162 @@ $agent_group_default = agentGroupTableClass::DEFAULT_GROUP;
                                                     <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"> New Landlord Group</a>
                                                 </div>
                                             </div>
-                                            <div class="panel-group" id="accordion">
-                                                <?php
-                                                $i = 1;
-                                                $splits = 0;
-                                                foreach ($ObjLandlordGroups as $landlord_group):
-                                                  ?>
-                                                  <div class="panel panel-default">
-                                                      <div class="panel-heading">
-                                                          <h4 class="panel-title">
-                                                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>">
-                                                                  <b> <?php echo $landlord_group->$landlord_group_name; ?></b> : 
-                                                              </a>
-                                                          </h4>
-
-                                                      </div>
-                                                      <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse ">
-                                                          </br>
-                                                          <div class="panel panel-success">
-                                                              <div class="panel-body">
-                                                                  <div class="pull-right">
-                                                                      <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"><b> Edit</b></a>
-                                                                      <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--danger"><b> Delete</b></a>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                          <?php
-                                                          for ($index = 0; $index < count($ObjAgentGroup); $index++) {
-                                                            echo $ObjAgentGroup[$index]->$agent_group_name;
-                                                          }
-                                                          ?>
-                                                      </div>
-                                                  </div>
-                                                  <?php
-                                                  $i++;
-                                                  $splits++;
-                                                endforeach;
+                                        </div>
+                                        <div class="panel-group" id="accordion">
+                                            <?php
+                                            $i = 1;
+                                            $splits = 0;
+                                            foreach ($ObjLandlordGroups as $landlord_group):
                                                 ?>
-                                            </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading">
+                                                        <h4 class="panel-title">
+                                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>">
+                                                                <b> <?php echo $landlord_group->$landlord_group_name; ?></b> : 
+                                                            </a>
+                                                        </h4>
 
-                                        </div>
-                                        <div id="agents_group" class="tab-pane fade">
-                                            </br>
+                                                    </div>
+                                                </div>
+                                                <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse <?php echo($i ==1)? 'in': '';  ?> ">
+                                                    </br>
+                                                    <div class="panel panel-success">
+                                                        <div class="panel-body">
+                                                            <div class="pull-right">
+                                                                <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"><b> Edit</b></a>
+                                                                <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--danger"><b> Delete</b></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
+                                                    <!-- Icon List -->
+                                                    <style>
+                                                        .demo-list-icon {
+                                                            width: 300px;
+                                                        }
+                                                    </style>
+                                                    <ul class="demo-list-icon mdl-list">   
+                                                        <?php
+                                                        $landlord_splits = landlordAgentSplitsTableClass::getLandlordAgentSplits($landlord_group->$landlord_group_id);
+
+                                                        for ($index = 0; $index < count($landlord_splits); $index++):
+                                                            ?>
+                                                            <li class="mdl-list__item">
+                                                                <span class="mdl-list__item-primary-content">
+                                                                    <i class="material-icons mdl-list__item-icon">person</i>
+                                                                    <?php echo agentGroupTableClass::getAgentGroupName($landlord_splits[$index]->$landlord_agent_splits_agent_group_id); ?>: 
+                                                                </span>
+                                                                <span class="mdl-list__item-secondary-action" href="#">
+                                                                    <b><?php echo $landlord_splits[$index]->$landlord_agent_splits_agent_percentage; ?> %</b>
+                                                                </span>
+                                                            </li>
+                                                            <?php
+                                                        endfor;
+                                                        ?>
+                                                    </ul>
+                                                </div>
+
+                                                <?php
+                                                $i++;
+                                                $splits++;
+                                            endforeach;
+                                            ?>
                                         </div>
+
+
                                     </div>
+                                    <div id="agents_group" class="tab-pane fade">
+                                        </br>
+                                        <div class="panel panel-success">
+                                            <div class="panel-body">
+                                                <div class="pull-left">
+                                                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--dark"><i class="fa fa-users"></i> <?php echo count($ObjAgentGroup); ?> Agents Groups</button>
+                                                    <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"><i class="fa fa-plus-square-o" aria-hidden="true"></i> New Agent Group</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <?php if (empty($ObjAgentGroup)) { ?>
 
+                                            <div class="alert alert-info alert-dismissible" role="alert">
+                                                <p class="text-center">
+                                                    <b> <i class="fa fa-info-circle" aria-hidden="true"></i> Information: There are no Agents Groups found. </b> <button data-hash="<?php ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect btnAdd_agent_group" type="button"><i class="fa fa-plus-square-o" aria-hidden="true"></i> <b>New Agent Group</b></button><br>
+                                                </p>
+                                            </div>
+                                        <?php } ?>
+
+
+                                        <table id="agent_splits_table" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                                            <thead>
+                                                <tr>
+                                                    <th>Agent Group Name</th>
+                                                    <th>Default for New Agents</th>
+                                                    <th>Total Agents</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <?php
+                                                foreach ($ObjAgentGroup as $agentGroup):
+                                                    ?>
+                                                    <tr>
+                                                        <td>
+                                                            <?php echo $agentGroup->$agent_group_name; ?>
+
+                                                        </td>
+                                                        <td>
+                                                            <span class="mdl-list__item-secondary-action">
+                                                                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-1">
+                                                                    <input type="checkbox" id="list-checkbox-default" class="mdl-checkbox__input"  <?php echo ($agentGroup->$agent_group_default == 1) ? 'checked' : 'disabled'; ?> />
+                                                                </label>
+                                                            </span>
+
+                                                        </td>
+                                                        <td>
+                                                            <?php echo $total_agents; ?>
+
+                                                        </td>
+                                                        <td>
+                                                            <a href="<?php ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="button"><i class="fa fa-plus-square-o" aria-hidden="true"></i> <b>Edit</b></a>
+                                                            <button data-id="<?php echo $agentGroup->$agent_group_id; ?>" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button " type="button" data-toggle="tooltip" data-placement="top" title="delete Agent Group" disabled><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button>
+
+                                                        </td>
+                                                    </tr>
+                                                <?php endforeach; ?>
+
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <th>Agent Group Name</th>
+                                                    <th>Default for New Agents</th>
+                                                    <th>Total Agents</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                        <div class="ln_solid"></div>
+
+                                    </div>
                                 </div>
+                                <script>
+                                    $(document).ready(function () {
+                                        //                                        AGENT SPLITS TABLE SETTINGS
+                                        $('#agent_splits_table').DataTable({
+                                            responsive: {
+                                                details: {
+                                                    renderer: function (api, rowIdx) {
+                                                        var data = api.cells(rowIdx, ':hidden').eq(0).map(function (cell) {
+                                                            var header = $(api.column(cell.column).header());
+                                                            return  '<p>' + header.text() + ' : ' + api.cell(cell).data() + '</p>'; // changing details mark up.
+                                                        }).toArray().join('');
+                                                        return data ? $('<table/>').append(data) : false;
+                                                    }
+                                                }
+                                            }
+                                        });
+                                        $agent_splits_table = $('table#agent_splits_table').DataTable();
+                                    });
+
+                                </script>
                             </div>
 
                         </div>

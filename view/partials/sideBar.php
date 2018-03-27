@@ -299,10 +299,17 @@ $profile_hash = profileTableClass::PROFILE_HASH;
                     </ul>
                 </li>-->
                 <?php //}    ?>
-                <li><a><i class="fa fa-cogs" aria-hidden="true"></i> SYSTEM <span class="fa fa-chevron-down"></span></a>
+                 <li><a><i class="fa fa-cogs" aria-hidden="true"></i> SYSTEM <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
 
                         <li><a href="<?php echo routing::getInstance()->getUrlWeb("neighborhood", "index") ?>">Neighborhood</a></li>
+
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-dot-circle-o" aria-hidden="true"></i> Dunbar Apts <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+
+                        <li><a href="<?php echo routing::getInstance()->getUrlWeb("dunbar", "contacts") ?>">Contacts</a></li>
 
                     </ul>
                 </li>
@@ -319,7 +326,6 @@ $profile_hash = profileTableClass::PROFILE_HASH;
                         </ul>
 
                     </li>
-
                 </ul>
             </div>
 

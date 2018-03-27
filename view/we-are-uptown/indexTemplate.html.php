@@ -17,20 +17,18 @@ use mvc\session\sessionClass as session;
             </div>
         </div>
     </div>
-    <div class="grid-container">
+
         <div class="row">
-            <div class="small-12 mlarge-6 columns">
-                <p>Bohemia Realty Group is a dynamic team of dedicated real estate professionals that focus on residential rentals and sales in Upper Manhattan. Our agents are neighborhood specialists; over 90% of Bohemia agents call uptown home, and can provide first-hand knowledge about the lifestyle at the top of the island.</p>
+            <div class="who-we-are-info">
+                <p>Bohemia Realty Group is a dynamic team of dedicated real estate professionals that focus on residential sales and rentals in Upper Manhattan. Our agents are neighborhood specialists; over 90% of Bohemia agents call uptown home, and can provide first-hand knowledge about the lifestyle at the top of the island.</p>
                 <p>Our mission is a three pronged approach to improving quality of life: to service clients in an efficient, friendly way; to create a positive work environment for our agents and employees; and to enrich the community above 96th Street.<br>
                     From pre-war walk up rentals to new development condos, we firmly believe that it’s possible for all New Yorkers to have light, space, and a renovated bathroom… and not have to give up dinner in order to afford it.</p>
             </div>
-            <div class="split small-12 mlarge-6 columns">
+            <div id="who-we-are-anchors">
                 <hr>
-                <a class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("our-team", "index") ?>">Meet Our Team</a>
-                <p style="text-align: center;"><a class="link" target="_blank" href=" https://dev.brg-ny.com/hiring/index.php?Bohemia-is-Hiring" style="text-align: center;">Please click here to RSVP if you are <br />interested in becoming part of the team.</a></p>
-                <a class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("blog", "index") ?>">What’s Happening This Week<br /> In Upper Manhattan</a>
+                <a id="meet-our-team-anchor" class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("our-team", "index") ?>">Meet Our Team</a>
+                <a id="whats-happening-anchor" class="button signup-success" href="<?php echo routing::getInstance()->getUrlWeb("blog", "index") ?>">What’s Happening This Week<br /> In Upper Manhattan</a>
             </div>
         </div>
     </div>
-</div>
 <?php echo view::includePartial("partials/homepage/footerBar"); ?>

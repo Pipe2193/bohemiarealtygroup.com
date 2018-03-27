@@ -5,20 +5,20 @@ use mvc\view\viewClass as view;
 use mvc\session\sessionClass as session;
 use mvc\config\myConfigClass as config;
 ?>
-
   <!-- ********************************************************** NAV BAR **************************************************  -->
   <div class="grid-container clearfix">
       <nav>
-          <div class="top-bar socials desktop float-right column row" style="margin-top: 2%;">
+          <!-- <div class="top-bar socials desktop float-right column row" style="margin-top: 2%;">
               <a href="https://bohemiarealtygroup.us14.list-manage.com/subscribe?u=a928f023b5eebaebc7bbb1de1&id=4a2fa28038" id="signup" class="button signup-success">Sign Up for BRG Blasts</a>
               <a href="https://instagram.com/bohemiarealty" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               <a href="https://twitter.com/BohemiaRealtyGr" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               <a href="https://www.facebook.com/pages/Bohemia-Realty-Group/105709759554291?ref=hl" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a href="https://www.pinterest.com/bohemiarealty" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-          </div>
+          </div> -->
           <div class="top-bar float-left row" style="padding-top: 0;">
               <div class="top-bar-left small-9 mlarge-4 columns">
-                  <a href="<?php echo \mvc\config\configClass::getUrlBase(), \mvc\config\configClass::getIndexFile(); ?>"><img src="<?php echo routing::getInstance()->getUrlImg("homepage/bohemia_logo.svg"); ?>" id="bohemia-logo"/></a>
+                  <a href="<?php echo \mvc\config\configClass::getUrlBase(), \mvc\config\configClass::getIndexFile(); ?>">
+                    <img src="<?php echo routing::getInstance()->getUrlImg("homepage/bohemia_logo.svg"); ?>" id="bohemia-logo"/></a>
               </div>
               <div class="top-bar-right small-3 mlarge-8 columns" style="height: 4em;">
                   <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="mlarge">
@@ -35,7 +35,7 @@ use mvc\config\myConfigClass as config;
                           </li>
                           <li class="has-submenu" id="our-developments">
                               <a href="<?php echo routing::getInstance()->getUrlWeb("our-developments", "index") ?>">Our Developments</a>
-                              <ul class="submenu menu vertical" data-submenu>
+                              <ul class="submenu menu vertical" data-submenustyle="min-width: 300px !important;">
                                   <li><a href="<?php echo routing::getInstance()->getUrlWeb("our-developments", "theLeo") ?>">The Leo — 427 W 154th</a></li>
                                   <li><a href="https://www.savoyparkapartments.com/index.html">Savoy Park Apartments</a></li>
                                   <li><a href="http://www.theammann.com/">The Ammann - 40 Pinehurst Ave.</a></li>
@@ -76,10 +76,18 @@ use mvc\config\myConfigClass as config;
 </div>
 <script>
 
-$( document ).ready(function() {
-  var drops = document.getElementsByClassName("submenu menu vertical")
+document.addEventListener('DOMContentLoaded', function() {
+  var drops = document.querySelectorAll(".top-bar .top-bar-right ul.menu li.has-submenu .submenu")
   for (i = 0; i < drops.length; i++){
+    var minWidth = drops[i].parentElement.clientWidth + 'px'
     drops[i].classList.add("notransition")
+    if (drops[i].parentElement.id === "our-developments"){
+      drops[i].style.minWidth = 300 + 'px'
+    } else {
+      drops[i].style.minWidth = minWidth
+    }
+    drops[i].style.opacity = 1
+
   }
 });
 

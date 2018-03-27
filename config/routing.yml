@@ -114,7 +114,188 @@ our_neighborhoods_index:
     - model/base/bitacoraBaseTableClass.php
     - model/bitacoraTableClass.php
     - model/base/profileBaseTableClass.php
-    - model/profileTableClass.php     
+    - model/profileTableClass.php  
+    
+our_neighborhoods_upper_west_side:
+  url:    /our-neighborhoods/upper-West-Side
+  param:  { module: our-neighborhoods, action: upperWestSide, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+    
+our_neighborhoods_manhattan_valley:
+  url:    /our-neighborhoods/manhattan-valley
+  param:  { module: our-neighborhoods, action: manhattanValley, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    
+our_neighborhoods_central_park:
+  url:    /our-neighborhoods/central-park
+  param:  { module: our-neighborhoods, action: centralPark, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    
+our_neighborhoods_spanish_harlem:
+  url:    /our-neighborhoods/spanish-harlem
+  param:  { module: our-neighborhoods, action: spanishHarlem, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    
+our_neighborhoods_morningside_heights:
+  url:    /our-neighborhoods/morningside-heights
+  param:  { module: our-neighborhoods, action: morningsideHeights, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+our_neighborhoods_south_harlem:
+  url:    /our-neighborhoods/south-harlem
+  param:  { module: our-neighborhoods, action: southHarlem, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+our_neighborhoods_north_harlem:
+  url:    /our-neighborhoods/north-harlem
+  param:  { module: our-neighborhoods, action: northHarlem, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+      
+    
+our_neighborhoods_east_harlem:
+  url:    /our-neighborhoods/east_harlem
+  param:  { module: our-neighborhoods, action: eastHarlem, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    
+our_neighborhoods_manhattanville:
+  url:    /our-neighborhoods/manhattanville
+  param:  { module: our-neighborhoods, action: manhattanville, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    
+our_neighborhoods_hamilton_heights:
+  url:    /our-neighborhoods/hamilton-heights
+  param:  { module: our-neighborhoods, action: hamiltonHeights, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    
+our_neighborhoods_sugar_hills:
+  url:    /our-neighborhoods/sugar-hill
+  param:  { module: our-neighborhoods, action: sugarHills, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php   
+    
+our_neighborhoods_washington_heights:
+  url:    /our-neighborhoods/washington-_heights
+  param:  { module: our-neighborhoods, action: washingtonHeights, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    
+our_neighborhoods_hudson_heights:
+  url:    /our-neighborhoods/hudson-_heights
+  param:  { module: our-neighborhoods, action: hudsonHeights, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+    
+our_neighborhoods_fort_george:
+  url:    /our-neighborhoods/fort-george
+  param:  { module: our-neighborhoods, action: fortGeorge, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    
+our_neighborhoods_inwood:
+  url:    /our-neighborhoods/inwood
+  param:  { module: our-neighborhoods, action: inwood, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
     
 our_team_index:
   url:    /our-team
@@ -3762,6 +3943,9 @@ splits_index:
     - model/splitsTableClass.php
     - model/base/agentGroupBaseTableClass.php
     - model/agentGroupTableClass.php
+    - model/base/landlordAgentSplitsBaseTableClass.php
+    - model/landlordAgentSplitsTableClass.php
+    
     
 splits_ajax:
   url:    /splits/ajax
@@ -3791,3 +3975,40 @@ splits_ajax:
     - model/landlordGroupTableClass.php
     - model/base/splitsBaseTableClass.php
     - model/splitsTableClass.php
+    - model/base/landlordAgentSplitsBaseTableClass.php
+    - model/landlordAgentSplitsTableClass.php
+    
+    
+dunbar_contacts:
+  url:    /dunbar/contacts
+  param:  { module: dunbar, action: contacts, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php    
+    - model/base/appBaseTableClass.php
+    - model/appTableClass.php
+    - model/base/contactFormBaseTableClass.php
+    - model/contactFormTableClass.php
+    
+dunbar_sync_contact:
+  url:    /dunbar/api/v1/contact
+  param:  { module: dunbar, action: syncContact, format: json }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php    
+    - model/base/appBaseTableClass.php
+    - model/appTableClass.php    
+    - model/base/contactFormBaseTableClass.php
+    - model/contactFormTableClass.php    

@@ -16,7 +16,7 @@ $usuario_id = blogTableClass::USUARIO_ID;
 
 $block_blog_id = blogGroupTableClass::ID;
 $blog_content = blogGroupTableClass::BLOG_CONTENT;
-?>  
+?>
 <?php echo view::includePartial("partials/homepage/navBar"); ?>
 <div class="blog" id="blog">
     <div class="hero cell">
@@ -117,7 +117,7 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
                     $index++;
                 } elseif ($index == 4) {
                     ?>
-                    <div class="row" id="third-row">
+                    <div class="row" id="third-row" style="border-bottom: none;">
                         <div class="mobile small-12 columns"><h3><?php echo $objBlogs[$blog_c]->$title_blog ?></h3></div>
                         <div class="mobile small-12 columns"><h6>Bohemia Blog by Agent <?php echo profileTableClass::getProfileByUserId($objBlogs[$blog_c]->$usuario_id); ?> Posted on <?php echo date("d F Y ", strtotime($objBlogs[$blog_c]->$created_at)); ?></h6></div>
                         <div class="small-push-6 mlarge-10 columns align-self-middle">
@@ -135,62 +135,8 @@ $blog_content = blogGroupTableClass::BLOG_CONTENT;
             ?>
         <?php endforeach; ?>
 
+        <!--REMOVED RECENT POSTS ------->
 
-
-        <div class="row" id="recent-posts">
-            <div class="small-12 mlarge-2 columns">
-                <h3>Recent Posts</h3>
-            </div>
-            <?php
-            $recent = 0;
-            for ($j = 0; $j <= 4; $j++):
-
-                if ($j == 0) {
-                    ?>
-                    <div class="small-12 mlarge-5 columns">
-                        <ul>
-                            <?php
-                        }
-                        ?>
-                        <li>
-                            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objRecentBlogs[$recent]->$blog_hash, blogTableClass::getNameField("post", true) => $objRecentBlogs[$recent]->$page_url_blog)) ?>"> <?php echo $objRecentBlogs[$recent]->$title_blog; ?> </a>
-                        </li>
-                        <?php
-                        if ($j == 4) {
-                            ?>
-                        </ul>
-                    </div>
-                    <?php
-                }
-                $recent++;
-            endfor;
-
-            $rec = 5;
-            for ($index1 = 0; $index1 <= 4; $index1++):
-
-
-                if ($index1 == 0) {
-                    ?>
-                    <div class="small-12 mlarge-5 columns">
-                        <ul>
-                            <?php
-                        }
-                        ?>
-                        <li>
-                            <a href="<?php echo routing::getInstance()->getUrlWeb('blog', 'post', array(blogTableClass::getNameField(blogTableClass::BLOG_HASH, true) => $objRecentBlogs[$rec]->$blog_hash, blogTableClass::getNameField("post", true) => $objRecentBlogs[$rec]->$page_url_blog)) ?>"> <?php echo $objRecentBlogs[$rec]->$title_blog; ?> </a>
-                        </li>
-
-                        <?php
-                        if ($index1 == 4) {
-                            ?>  
-                        </ul>
-                    </div>
-                    <?php
-                }
-                $rec++;
-            endfor;
-            ?>
-        </div>
         <div class="row" id="search-archive">
             <div class="small-12 mlarge-6 columns align-self-middle">
                 <h2>BOHEMIA BLOG ARCHIVE</h2>
