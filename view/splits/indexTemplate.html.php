@@ -8,6 +8,8 @@ use mvc\session\sessionClass as session;
 $landlord_group_id = landlordGroupTableClass::ID;
 $landlord_group_name = landlordGroupTableClass::LANDLORD_GROUP_NAME;
 $landlord_group_percentage = landlordGroupTableClass::BOHEMIA_PERCENT;
+$landlord_group_hash = landlordGroupTableClass::LANDLORD_GROUP_HASH;
+
 /** AGENT GROUP INSTANCES * */
 $agent_group_id = agentGroupTableClass::ID;
 $agent_group_name = agentGroupTableClass::AGENT_GROUP_NAME;
@@ -60,7 +62,7 @@ $landlord_agent_splits_agent_percentage = landlordAgentSplitsTableClass::AGENT_G
                                             <div class="panel-body">
                                                 <div class="pull-left">
                                                     <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--dark"><i class="fa fa-users"></i> <?php echo count($ObjLandlordGroups); ?> Landlords Groups</button>
-                                                    <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"> New Landlord Group</a>
+                                                    <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect btnAdd_landlord_group"><i class="fa fa-plus-square-o" aria-hidden="true"></i> New Landlord Group</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -74,48 +76,61 @@ $landlord_agent_splits_agent_percentage = landlordAgentSplitsTableClass::AGENT_G
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
                                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $i; ?>">
-                                                                <b> <?php echo $landlord_group->$landlord_group_name; ?></b> : 
+                                                                <button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"><b> <?php echo $landlord_group->$landlord_group_name; ?></b> </button> 
                                                             </a>
                                                         </h4>
 
                                                     </div>
                                                 </div>
-                                                <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse <?php echo($i ==1)? 'in': '';  ?> ">
+                                                <div id="collapse<?php echo $i; ?>" class="panel-collapse collapse <?php echo($i == 1) ? 'in' : ''; ?> ">
                                                     </br>
                                                     <div class="panel panel-success">
                                                         <div class="panel-body">
                                                             <div class="pull-right">
-                                                                <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"><b> Edit</b></a>
-                                                                <a href="<?php echo routing::getInstance()->getUrlWeb("splits", "index"); ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--danger"><b> Delete</b></a>
+                                                                <button data-hash ="<?php echo $landlord_group->$landlord_group_hash; ?>" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect btnEdit_landlord_group"><b> Edit</b></button>
+                                                                <button data-hash="<?php echo $landlord_group->$landlord_group_hash; ?>"  type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--danger"><b> Delete</b></button>
                                                             </div>
                                                         </div>
                                                     </div>
-
-                                                    <!-- Icon List -->
-                                                    <style>
-                                                        .demo-list-icon {
-                                                            width: 300px;
-                                                        }
-                                                    </style>
-                                                    <ul class="demo-list-icon mdl-list">   
-                                                        <?php
-                                                        $landlord_splits = landlordAgentSplitsTableClass::getLandlordAgentSplits($landlord_group->$landlord_group_id);
-
-                                                        for ($index = 0; $index < count($landlord_splits); $index++):
-                                                            ?>
-                                                            <li class="mdl-list__item">
-                                                                <span class="mdl-list__item-primary-content">
-                                                                    <i class="material-icons mdl-list__item-icon">person</i>
-                                                                    <?php echo agentGroupTableClass::getAgentGroupName($landlord_splits[$index]->$landlord_agent_splits_agent_group_id); ?>: 
-                                                                </span>
-                                                                <span class="mdl-list__item-secondary-action" href="#">
-                                                                    <b><?php echo $landlord_splits[$index]->$landlord_agent_splits_agent_percentage; ?> %</b>
-                                                                </span>
-                                                            </li>
-                                                            <?php
-                                                        endfor;
+                                                    <?php
+                                                    $landlord_splits = landlordAgentSplitsTableClass::getLandlordAgentSplits($landlord_group->$landlord_group_id);
+                                                    if (!empty($landlord_splits)) {
                                                         ?>
-                                                    </ul>
+                                                        <!-- Icon List -->
+                                                        <style>
+                                                            .demo-list-icon {
+                                                                width: 300px;
+                                                            }
+                                                        </style>
+                                                        <ul class="demo-list-icon mdl-list">   
+                                                            <?php
+                                                            for ($index = 0; $index < count($landlord_splits); $index++):
+                                                                ?>
+                                                                <li class="mdl-list__item">
+                                                                    <span class="mdl-list__item-primary-content">
+                                                                        <i class="material-icons mdl-list__item-icon">person</i>
+                                                                        <?php echo agentGroupTableClass::getAgentGroupName($landlord_splits[$index]->$landlord_agent_splits_agent_group_id); ?>: 
+                                                                    </span>
+                                                                    <span class="mdl-list__item-secondary-action" href="#">
+                                                                        <b><?php echo $landlord_splits[$index]->$landlord_agent_splits_agent_percentage; ?> %</b>
+                                                                    </span>
+                                                                </li>
+                                                                <?php
+                                                            endfor;
+                                                            ?>
+                                                        </ul>
+                                                        <?php
+                                                    }else {
+                                                        ?>
+                                                        </br>
+                                                        <div class="alert alert-info alert-dismissible" role="alert">
+                                                            <p class="text-center">
+                                                                <b> <i class="fa fa-info-circle" aria-hidden="true"></i> Information: There are no Splits found. </b><br>
+                                                            </p>
+                                                        </div>
+                                                        <?php
+                                                    }
+                                                    ?>
                                                 </div>
 
                                                 <?php
@@ -124,6 +139,7 @@ $landlord_agent_splits_agent_percentage = landlordAgentSplitsTableClass::AGENT_G
                                             endforeach;
                                             ?>
                                         </div>
+                                        <div id="landlord_splits_panel"></div>
 
 
                                     </div>
@@ -196,11 +212,51 @@ $landlord_agent_splits_agent_percentage = landlordAgentSplitsTableClass::AGENT_G
                                             </tfoot>
                                         </table>
                                         <div class="ln_solid"></div>
-
+                                        <?php
+                                        ?>
                                     </div>
                                 </div>
                                 <script>
                                     $(document).ready(function () {
+
+                                        var btnAdd_landlord_group = $(".btnAdd_landlord_group");
+                                        btnAdd_landlord_group.on('click', function () {
+                                            var urlajax = url + 'splits/ajax';
+                                            $.ajax({
+                                                async: true,
+                                                type: "POST",
+                                                dataType: "html",
+                                                contentType: "application/x-www-form-urlencoded",
+                                                url: urlajax,
+                                                data: ('add_landlord_split'),
+                                                success: function (data) {
+
+                                                    $("#landlord_splits_panel").show();
+                                                    //$('html, body').animate({scrollTop: $('body').offset().top}, 'slow');
+                                                    $("#landlord_splits_panel").html(data);
+                                                }
+                                            });
+                                        });
+
+                                        var btnEdit_landlord_group = $(".btnEdit_landlord_group");
+                                        btnEdit_landlord_group.on('click', function () {
+                                            var landlord_group_hash = $(this).data("hash");
+                                            var urlajax = url + 'splits/ajax';
+                                            $.ajax({
+                                                async: true,
+                                                type: "POST",
+                                                dataType: "html",
+                                                contentType: "application/x-www-form-urlencoded",
+                                                url: urlajax,
+                                                data: ('edit_landlord_split=' + landlord_group_hash),
+                                                success: function (data) {
+
+                                                    $("#landlord_splits_panel").show();
+                                                    //$('html, body').animate({scrollTop: $('body').offset().top}, 'slow');
+                                                    $("#landlord_splits_panel").html(data);
+                                                }
+                                            });
+                                        });
                                         //                                        AGENT SPLITS TABLE SETTINGS
                                         $('#agent_splits_table').DataTable({
                                             responsive: {

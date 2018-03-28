@@ -36,6 +36,7 @@ class indexActionClass extends controllerClass implements controllerActionInterf
             $landlord_group_fields = array(
                 landlordGroupTableClass::ID,
                 landlordGroupTableClass::LANDLORD_GROUP_NAME,
+                landlordGroupTableClass::LANDLORD_GROUP_HASH,
                 landlordGroupTableClass::BOHEMIA_PERCENT,
                 landlordGroupTableClass::UPDATED_AT,
             );
@@ -79,13 +80,11 @@ class indexActionClass extends controllerClass implements controllerActionInterf
                 landlordAgentSplitsTableClass::CREATED_AT,
                 landlordAgentSplitsBaseTableClass::UPDATED_AT
             );
-            
-            $landlord_agent_splits_order_by = array(
-            landlordAgentSplitsTableClass::ID  
-            );
-            
 
-            
+            $landlord_agent_splits_order_by = array(
+                landlordAgentSplitsTableClass::ID
+            );
+
             $this->objLandlordAgentSplits = landlordAgentSplitsTableClass::getAll($landord_agent_splits, true, $landlord_agent_splits_order_by, 'ASC');
 
             session::getInstance()->setFlash("splits_index", "splits_index");

@@ -3974,9 +3974,77 @@ splits_ajax:
     - model/base/landlordGroupBaseTableClass.php
     - model/landlordGroupTableClass.php
     - model/base/splitsBaseTableClass.php
-    - model/splitsTableClass.php
+    - model/splitsTableClass.
+    - model/base/agentGroupBaseTableClass.php
+    - model/agentGroupTableClass.php
     - model/base/landlordAgentSplitsBaseTableClass.php
     - model/landlordAgentSplitsTableClass.php
+    
+splits_create_ll:
+  url:    /splits/landlord-Group/create
+  param:  { module: splits, action: createLandlordGroup, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/landlordGroupBaseTableClass.php
+    - model/landlordGroupTableClass.php
+    - model/base/splitsBaseTableClass.php
+    - model/splitsTableClass.php
+    - model/base/agentGroupBaseTableClass.php
+    - model/agentGroupTableClass.php
+    - model/base/landlordAgentSplitsBaseTableClass.php
+    - model/landlordAgentSplitsTableClass.php
+    
+splits_update_ll:
+  url:    /splits/landlord-Group/edit
+  param:  { module: splits, action: editLandlordGroup, format: html }
+  load:    
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/landlordBaseTableClass.php
+    - model/landlordTableClass.php
+    - model/base/petsPolicyBaseTableClass.php
+    - model/petsPolicyTableClass.php
+    - model/base/listingTypeBaseTableClass.php
+    - model/listingTypeTableClass.php
+    - model/base/statesBaseTableClass.php
+    - model/statesTableClass.php
+    - model/base/listingManagerBaseTableClass.php
+    - model/listingManagerTableClass.php
+    - model/base/listingBaseTableClass.php
+    - model/listingTableClass.php
+    - model/base/landlordGroupBaseTableClass.php
+    - model/landlordGroupTableClass.php
+    - model/base/splitsBaseTableClass.php
+    - model/splitsTableClass.php
+    - model/base/agentGroupBaseTableClass.php
+    - model/agentGroupTableClass.php
+    - model/base/landlordAgentSplitsBaseTableClass.php
+    - model/landlordAgentSplitsTableClass.php    
     
     
 dunbar_contacts:

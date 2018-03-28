@@ -52,7 +52,7 @@ $(document).ready(function () {
      * switch developments eviroments
      * @type String
      */
-    var $enviroment = 'testing';
+    var $enviroment = 'dev';
 //    function routing($module, $action, $enviroment) {
 
     if ($enviroment == 'dev') {

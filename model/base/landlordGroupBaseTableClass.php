@@ -12,6 +12,7 @@ class landlordGroupBaseTableClass extends tableBaseClass {
   const ID = 'id_landlord_group';
   const BOHEMIA_PERCENT = 'bohemia_percent';
   const LANDLORD_GROUP_NAME = 'landlord_group_name';
+  const LANDLORD_GROUP_HASH = 'landlord_group_hash';
   const CREATED_AT = 'created_at';
   const UPDATED_AT = 'updated_at';
   const DELETED_AT = 'deleted_at';
